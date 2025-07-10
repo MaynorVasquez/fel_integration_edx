@@ -1,0 +1,87 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-07-05 13:51:07.268072",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "status",
+  "sales_invoice",
+  "authorization_number",
+  "certification_timestamp",
+  "series",
+  "number",
+  "request",
+  "response"
+ ],
+ "fields": [
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Exitoso\nError"
+  },
+  {
+   "fieldname": "request",
+   "fieldtype": "Long Text",
+   "label": "XML Request"
+  },
+  {
+   "fieldname": "response",
+   "fieldtype": "Long Text",
+   "label": "XML Response"
+  },
+  {
+   "fieldname": "sales_invoice",
+   "fieldtype": "Link",
+   "label": "Factura",
+   "options": "POS Invoice"
+  },
+  {
+   "fieldname": "authorization_number",
+   "fieldtype": "Data",
+   "label": "Numero de autorizaci\u00f3n"
+  },
+  {
+   "fieldname": "certification_timestamp",
+   "fieldtype": "Datetime",
+   "label": "Fecha y hora de certificaci\u00f3n"
+  },
+  {
+   "fieldname": "series",
+   "fieldtype": "Data",
+   "label": "Serie FEL"
+  },
+  {
+   "fieldname": "number",
+   "fieldtype": "Data",
+   "label": "Numero FEL"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-07-06 13:39:02.224020",
+ "modified_by": "Administrator",
+ "module": "Integracion FEL",
+ "name": "FEL Certificacion Factura Cambiaria",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -5,6 +5,13 @@ app_description = "Desarrollo para certificación FEL con EDX Guatemala"
 app_email = "vasquez158@gmail.com"
 app_license = "mit"
 
+
+# doc_events = {
+#     "Sales Invoice": {
+#         "on_submit": "fel_integration_edx.api.edx_factura_cambiaria.certificar_factura"
+#     }
+# }
+
 # Apps
 # ------------------
 

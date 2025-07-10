@@ -1,0 +1,139 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-07-02 14:51:37.662086",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "datos_del_certificador_section",
+  "datos_del_certificador_column",
+  "area",
+  "contrase\u00f1a",
+  "usuario",
+  "url",
+  "retencion_iva",
+  "afiliacion_iva",
+  "nit_certificador",
+  "datos_de_la_empresa_column",
+  "razon_social",
+  "nombre_comercial",
+  "nit_emisor",
+  "correo_emisor",
+  "departamento",
+  "municipio",
+  "pais"
+ ],
+ "fields": [
+  {
+   "fieldname": "area",
+   "fieldtype": "Data",
+   "label": "\u00c1rea"
+  },
+  {
+   "fieldname": "contrase\u00f1a",
+   "fieldtype": "Data",
+   "label": "Contrase\u00f1a"
+  },
+  {
+   "fieldname": "usuario",
+   "fieldtype": "Data",
+   "label": "Usuario"
+  },
+  {
+   "fieldname": "url",
+   "fieldtype": "Data",
+   "label": "url"
+  },
+  {
+   "fieldname": "datos_de_la_empresa_column",
+   "fieldtype": "Column Break",
+   "label": "Datos de la empresa"
+  },
+  {
+   "fieldname": "razon_social",
+   "fieldtype": "Data",
+   "label": "Raz\u00f3n social "
+  },
+  {
+   "fieldname": "nombre_comercial",
+   "fieldtype": "Data",
+   "label": "Nombre comercial"
+  },
+  {
+   "fieldname": "departamento",
+   "fieldtype": "Data",
+   "label": "Departamento"
+  },
+  {
+   "fieldname": "municipio",
+   "fieldtype": "Data",
+   "label": "Municipio"
+  },
+  {
+   "fieldname": "pais",
+   "fieldtype": "Data",
+   "label": "Pa\u00eds"
+  },
+  {
+   "fieldname": "datos_del_certificador_section",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "datos_del_certificador_column",
+   "fieldtype": "Column Break",
+   "label": "Datos del certificador"
+  },
+  {
+   "fieldname": "retencion_iva",
+   "fieldtype": "Select",
+   "label": "Retenci\u00f3n de IVA",
+   "options": "Si\nNo"
+  },
+  {
+   "fieldname": "afiliacion_iva",
+   "fieldtype": "Select",
+   "label": "Afiliaci\u00f3n IVA",
+   "options": "GEN - General\nEXE - Exento\nPEQ - Peque\u00f1o Contribuyente"
+  },
+  {
+   "fieldname": "nit_certificador",
+   "fieldtype": "Data",
+   "label": "Nit del certificador"
+  },
+  {
+   "fieldname": "nit_emisor",
+   "fieldtype": "Data",
+   "label": "Nit de la empresa"
+  },
+  {
+   "fieldname": "correo_emisor",
+   "fieldtype": "Data",
+   "label": "Correo de la empresa"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2025-07-03 13:50:45.490670",
+ "modified_by": "Administrator",
+ "module": "Integracion FEL",
+ "name": "FEL Integration",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
