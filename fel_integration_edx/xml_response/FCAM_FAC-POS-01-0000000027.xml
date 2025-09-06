@@ -1,0 +1,374 @@
+<?xml version='1.0' encoding='utf-8'?>
+<dte:GTDocumento xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:cfc="http://www.sat.gob.gt/dte/fel/CompCambiaria/0.1.0" xmlns:cno="http://www.sat.gob.gt/face2/ComplementoReferenciaNota/0.1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:cex="http://www.sat.gob.gt/face2/ComplementoExportaciones/0.1.0" xmlns:cesp="http://www.sat.gob.gt/face2/ComplementoEspectaculos/0.1.0" xmlns:cfe="http://www.sat.gob.gt/face2/ComplementoFacturaEspecial/0.1.0" xmlns:crc="http://www.sat.gob.gt/face2/ComplementoReferenciaConstancia/0.1.0" xmlns:cca="http://www.sat.gob.gt/face2/CobroXCuentaAjena/0.1.0" xmlns:dte="http://www.sat.gob.gt/dte/fel/0.2.0" Version="0.1">
+  <dte:SAT ClaseDocumento="dte">
+    <dte:DTE ID="DatosCertificados">
+      <dte:DatosEmision ID="DatosEmision">
+        <dte:DatosGenerales Tipo="FCAM" FechaHoraEmision="2025-09-03T22:35:13-06:00" CodigoMoneda="GTQ"/>
+        <dte:Emisor NITEmisor="7951795" NombreEmisor="Productos Alimenticios YAESTA, S.A." CodigoEstablecimiento="2" NombreComercial="Productos Alimenticios YAESTA, S.A." CorreoEmisor="sap@yaesta.com.gt" AfiliacionIVA="GEN">
+          <dte:DireccionEmisor>
+            <dte:Direccion>Kilómetro 16.5 carretera a San Juan Sacatepéquez, complejo industrial Mixco Norte B-2, Zona 6</dte:Direccion>
+            <dte:CodigoPostal>01057</dte:CodigoPostal>
+            <dte:Municipio>MIXCO</dte:Municipio>
+            <dte:Departamento>GUATEMALA</dte:Departamento>
+            <dte:Pais>GT</dte:Pais>
+          </dte:DireccionEmisor>
+        </dte:Emisor>
+        <dte:Receptor IDReceptor="CF" NombreReceptor="MAYNOR HAROLDO VASQUEZ" CorreoReceptor="no-definido@correo.com">
+          <dte:DireccionReceptor>
+            <dte:Direccion>Lote 7, Sector 1, Lo de Carranza San Juan Sacatepequez</dte:Direccion>
+            <dte:CodigoPostal>00000</dte:CodigoPostal>
+            <dte:Municipio>San Juan Sacatepequez</dte:Municipio>
+            <dte:Departamento>Guatemala</dte:Departamento>
+            <dte:Pais>GT</dte:Pais>
+          </dte:DireccionReceptor>
+        </dte:Receptor>
+        <dte:Frases>
+          <dte:Frase TipoFrase="1" CodigoEscenario="1"/>
+          <dte:Frase TipoFrase="2" CodigoEscenario="1"/>
+        </dte:Frases>
+        <dte:Items>
+          <dte:Item NumeroLinea="1" BienOServicio="B">
+            <dte:Cantidad>1.0</dte:Cantidad>
+            <dte:UnidadMedida>UNI</dte:UnidadMedida>
+            <dte:Descripcion>HARINA DE FECULA DE MAIZ YAESTA CAJA</dte:Descripcion>
+            <dte:PrecioUnitario>19.06</dte:PrecioUnitario>
+            <dte:Precio>19.060000</dte:Precio>
+            <dte:Descuento>1.906000</dte:Descuento>
+            <dte:Impuestos>
+              <dte:Impuesto>
+                <dte:NombreCorto>IVA</dte:NombreCorto>
+                <dte:CodigoUnidadGravable>1</dte:CodigoUnidadGravable>
+                <dte:MontoGravable>15.316071</dte:MontoGravable>
+                <dte:MontoImpuesto>1.837929</dte:MontoImpuesto>
+              </dte:Impuesto>
+            </dte:Impuestos>
+            <dte:Total>17.154</dte:Total>
+          </dte:Item>
+          <dte:Item NumeroLinea="2" BienOServicio="B">
+            <dte:Cantidad>2.0</dte:Cantidad>
+            <dte:UnidadMedida>UNI</dte:UnidadMedida>
+            <dte:Descripcion>HORCHATA TIL YAESTA BOLSA 460 GRS</dte:Descripcion>
+            <dte:PrecioUnitario>12.36</dte:PrecioUnitario>
+            <dte:Precio>24.720000</dte:Precio>
+            <dte:Descuento>0.000000</dte:Descuento>
+            <dte:Impuestos>
+              <dte:Impuesto>
+                <dte:NombreCorto>IVA</dte:NombreCorto>
+                <dte:CodigoUnidadGravable>1</dte:CodigoUnidadGravable>
+                <dte:MontoGravable>22.071429</dte:MontoGravable>
+                <dte:MontoImpuesto>2.648571</dte:MontoImpuesto>
+              </dte:Impuesto>
+            </dte:Impuestos>
+            <dte:Total>24.72</dte:Total>
+          </dte:Item>
+          <dte:Item NumeroLinea="3" BienOServicio="B">
+            <dte:Cantidad>3.0</dte:Cantidad>
+            <dte:UnidadMedida>UNI</dte:UnidadMedida>
+            <dte:Descripcion>HORCHATA TIL YAESTA CAJITA 400 G</dte:Descripcion>
+            <dte:PrecioUnitario>12.36</dte:PrecioUnitario>
+            <dte:Precio>37.080000</dte:Precio>
+            <dte:Descuento>4.820400</dte:Descuento>
+            <dte:Impuestos>
+              <dte:Impuesto>
+                <dte:NombreCorto>IVA</dte:NombreCorto>
+                <dte:CodigoUnidadGravable>1</dte:CodigoUnidadGravable>
+                <dte:MontoGravable>28.803214</dte:MontoGravable>
+                <dte:MontoImpuesto>3.456386</dte:MontoImpuesto>
+              </dte:Impuesto>
+            </dte:Impuestos>
+            <dte:Total>32.2596</dte:Total>
+          </dte:Item>
+        </dte:Items>
+        <dte:Totales>
+          <dte:TotalImpuestos>
+            <dte:TotalImpuesto NombreCorto="IVA" TotalMontoImpuesto="7.942886"/>
+          </dte:TotalImpuestos>
+          <dte:GranTotal>74.133600</dte:GranTotal>
+        </dte:Totales>
+        <dte:Complementos>
+          <dte:Complemento NombreComplemento="GT_Complemento_Cambiaria" URIComplemento="http://www.sat.gob.gt/dte/fel/CompCambiaria/0.2.0">
+            <cfc:AbonosFacturaCambiaria Version="1">
+              <cfc:Abono>
+                <cfc:NumeroAbono>1</cfc:NumeroAbono>
+                <cfc:FechaVencimiento>2025-09-03</cfc:FechaVencimiento>
+                <cfc:MontoAbono>74.13360</cfc:MontoAbono>
+              </cfc:Abono>
+            </cfc:AbonosFacturaCambiaria>
+          </dte:Complemento>
+        </dte:Complementos>
+      </dte:DatosEmision>
+      <dte:Certificacion>
+        <dte:NITCertificador>43430775</dte:NITCertificador>
+        <dte:NombreCertificador>Inforum Consulting, S.A.</dte:NombreCertificador>
+        <dte:NumeroAutorizacion Serie="D72E7E43" Numero="2509719766">D72E7E43-9597-48D6-B7B5-D47D0732C7A8</dte:NumeroAutorizacion>
+        <dte:FechaHoraCertificacion>2025-09-03T22:35:17-06:00</dte:FechaHoraCertificacion>
+      </dte:Certificacion>
+    </dte:DTE>
+    <dte:Adenda>
+      <ecfd:ECFD xmlns:ecfd="http://www.edxsolutions.gt/schemas/fel" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="0.1" xsi:schemaLocation="http://www.edxsolutions.gt/schemas/fel/ecfd.xsd">
+        <ecfd:Documento ID="dte">
+          <ecfd:Encabezado>
+            <ecfd:IdDoc>
+              <ecfd:Tipo>39</ecfd:Tipo>
+              <ecfd:FechaEmis>2025-09-03T22:35:13-06:00</ecfd:FechaEmis>
+              <ecfd:CodigoMoneda>GTQ</ecfd:CodigoMoneda>
+            </ecfd:IdDoc>
+            <ecfd:ExEmisor>
+              <ecfd:NITEmisor>7951795</ecfd:NITEmisor>
+              <ecfd:NmbEmisor>Productos Alimenticios YAESTA, S.A.</ecfd:NmbEmisor>
+              <ecfd:CorreoEmisor>sap@yaesta.com.gt</ecfd:CorreoEmisor>
+              <ecfd:AfiliacionIVA>GEN</ecfd:AfiliacionIVA>
+              <ecfd:CodigoExEmisor>
+                <ecfd:CdgSucursal>2</ecfd:CdgSucursal>
+                <ecfd:Sucursal>Productos Alimenticios YAESTA, S.A.</ecfd:Sucursal>
+              </ecfd:CodigoExEmisor>
+              <ecfd:DomFiscal>
+                <ecfd:Direccion>Kilómetro 16.5 carretera a San Juan Sacatepéquez, complejo industrial Mixco Norte B-2, Zona 6</ecfd:Direccion>
+                <ecfd:CodigoPostal>01057</ecfd:CodigoPostal>
+                <ecfd:Municipio>MIXCO</ecfd:Municipio>
+                <ecfd:Departamento>GUATEMALA</ecfd:Departamento>
+                <ecfd:Pais>GT</ecfd:Pais>
+              </ecfd:DomFiscal>
+            </ecfd:ExEmisor>
+            <ecfd:ExReceptor>
+              <ecfd:IDReceptor>CF</ecfd:IDReceptor>
+              <ecfd:NmbRecep>MAYNOR HAROLDO VASQUEZ</ecfd:NmbRecep>
+              <ecfd:CorreoReceptor>no-definido@correo.com</ecfd:CorreoReceptor>
+              <ecfd:DomFiscalRcp>
+                <ecfd:Direccion>Lote 7, Sector 1, Lo de Carranza San Juan Sacatepequez</ecfd:Direccion>
+                <ecfd:CodigoPostal>00000</ecfd:CodigoPostal>
+                <ecfd:Municipio>San Juan Sacatepequez</ecfd:Municipio>
+                <ecfd:Departamento>Guatemala</ecfd:Departamento>
+                <ecfd:Pais>GT</ecfd:Pais>
+              </ecfd:DomFiscalRcp>
+            </ecfd:ExReceptor>
+            <ecfd:Frases>
+              <ecfd:Frase TipoFrase="1" CodigoEscenario="1"/>
+              <ecfd:Frase TipoFrase="2" CodigoEscenario="1"/>
+            </ecfd:Frases>
+          </ecfd:Encabezado>
+          <ecfd:Detalle>
+            <ecfd:NroLinDet>1</ecfd:NroLinDet>
+            <ecfd:BienOServicio>B</ecfd:BienOServicio>
+            <ecfd:QtyItem>1.0</ecfd:QtyItem>
+            <ecfd:UnmdItem>UNI</ecfd:UnmdItem>
+            <ecfd:Descripcion>HARINA DE FECULA DE MAIZ YAESTA CAJA</ecfd:Descripcion>
+            <ecfd:Precio>19.06</ecfd:Precio>
+            <ecfd:MontoBrutoItem>19.060000</ecfd:MontoBrutoItem>
+            <ecfd:Total>17.154</ecfd:Total>
+            <ecfd:DescuentoMonto>1.906000</ecfd:DescuentoMonto>
+            <ecfd:Impuestos>
+              <ecfd:NombreCorto>IVA</ecfd:NombreCorto>
+              <ecfd:CodigoUnidadGravable>1</ecfd:CodigoUnidadGravable>
+              <ecfd:MontoGravable>15.316071</ecfd:MontoGravable>
+              <ecfd:MontoImpuesto>1.837929</ecfd:MontoImpuesto>
+            </ecfd:Impuestos>
+          </ecfd:Detalle>
+          <ecfd:Detalle>
+            <ecfd:NroLinDet>2</ecfd:NroLinDet>
+            <ecfd:BienOServicio>B</ecfd:BienOServicio>
+            <ecfd:QtyItem>2.0</ecfd:QtyItem>
+            <ecfd:UnmdItem>UNI</ecfd:UnmdItem>
+            <ecfd:Descripcion>HORCHATA TIL YAESTA BOLSA 460 GRS</ecfd:Descripcion>
+            <ecfd:Precio>12.36</ecfd:Precio>
+            <ecfd:MontoBrutoItem>24.720000</ecfd:MontoBrutoItem>
+            <ecfd:Total>24.72</ecfd:Total>
+            <ecfd:DescuentoMonto>0.000000</ecfd:DescuentoMonto>
+            <ecfd:Impuestos>
+              <ecfd:NombreCorto>IVA</ecfd:NombreCorto>
+              <ecfd:CodigoUnidadGravable>1</ecfd:CodigoUnidadGravable>
+              <ecfd:MontoGravable>22.071429</ecfd:MontoGravable>
+              <ecfd:MontoImpuesto>2.648571</ecfd:MontoImpuesto>
+            </ecfd:Impuestos>
+          </ecfd:Detalle>
+          <ecfd:Detalle>
+            <ecfd:NroLinDet>3</ecfd:NroLinDet>
+            <ecfd:BienOServicio>B</ecfd:BienOServicio>
+            <ecfd:QtyItem>3.0</ecfd:QtyItem>
+            <ecfd:UnmdItem>UNI</ecfd:UnmdItem>
+            <ecfd:Descripcion>HORCHATA TIL YAESTA CAJITA 400 G</ecfd:Descripcion>
+            <ecfd:Precio>12.36</ecfd:Precio>
+            <ecfd:MontoBrutoItem>37.080000</ecfd:MontoBrutoItem>
+            <ecfd:Total>32.2596</ecfd:Total>
+            <ecfd:DescuentoMonto>4.820400</ecfd:DescuentoMonto>
+            <ecfd:Impuestos>
+              <ecfd:NombreCorto>IVA</ecfd:NombreCorto>
+              <ecfd:CodigoUnidadGravable>1</ecfd:CodigoUnidadGravable>
+              <ecfd:MontoGravable>28.803214</ecfd:MontoGravable>
+              <ecfd:MontoImpuesto>3.456386</ecfd:MontoImpuesto>
+            </ecfd:Impuestos>
+          </ecfd:Detalle>
+          <ecfd:Totales>
+            <ecfd:GranTotal>74.133600</ecfd:GranTotal>
+            <ecfd:TotalImpuestos NombreCorto="IVA" TotalMontoImpuesto="7.942886"/>
+          </ecfd:Totales>
+          <ecfd:Complementos>
+            <ecfd:AbonosFacturaCambiaria Version="1">
+              <ecfd:Abono>
+                <ecfd:NumeroAbono>1</ecfd:NumeroAbono>
+                <ecfd:FechaVencimiento>2025-09-03T00:00:00-06:00</ecfd:FechaVencimiento>
+                <ecfd:MontoAbono>74.13360</ecfd:MontoAbono>
+              </ecfd:Abono>
+            </ecfd:AbonosFacturaCambiaria>
+          </ecfd:Complementos>
+        </ecfd:Documento>
+        <ecfd:Personalizados>
+          <ecfd:campoString name="_strartofdoc">&lt;/INICIO&gt;</ecfd:campoString>
+          <ecfd:campoString name="_endfrases">&lt;/ FIN FRASES /&gt;</ecfd:campoString>
+          <ecfd:campoString name="EXP"/>
+          <ecfd:campoString name="_endCompAbono">&lt;/ COMPLEMENTO EXPORTACION</ecfd:campoString>
+          <ecfd:campoString name="SERIEINTERNA">306</ecfd:campoString>
+          <ecfd:campoString name="NUMEROINTERNO">FAC-POS-01-00</ecfd:campoString>
+          <ecfd:campoString name="UNICO">2 FEL-FAC-POS-01-0000000027</ecfd:campoString>
+          <ecfd:campoString name="FormaPago">Tienda</ecfd:campoString>
+          <ecfd:campoString name="CodigoCliente">C01932</ecfd:campoString>
+          <ecfd:campoString name="SERIES">2 FEL</ecfd:campoString>
+          <ecfd:campoString name="LugarEntrega">MAYNOR HAROLDO VASQUEZ</ecfd:campoString>
+          <ecfd:campoString name="FechaVencimiento"/>
+          <ecfd:campoString name="Vendedor">Tienda</ecfd:campoString>
+          <ecfd:campoString name="Comentarios"/>
+          <ecfd:campoString name="TP">Factura</ecfd:campoString>
+          <ecfd:campoString name="OCwalmart"/>
+          <ecfd:campoString name="TIPO">FCAM</ecfd:campoString>
+          <ecfd:campoString name="OrdenDeCompra"/>
+          <ecfd:campoString name="PDF417"/>
+          <ecfd:CustDetalle>
+            <ecfd:CustDetNroLin>1</ecfd:CustDetNroLin>
+            <ecfd:CustDetAFN_01>SC00015</ecfd:CustDetAFN_01>
+            <ecfd:CustDetAFN_02>UNIDAD</ecfd:CustDetAFN_02>
+          </ecfd:CustDetalle>
+          <ecfd:CustDetalle>
+            <ecfd:CustDetNroLin>2</ecfd:CustDetNroLin>
+            <ecfd:CustDetAFN_01>SC00001</ecfd:CustDetAFN_01>
+            <ecfd:CustDetAFN_02>UNIDAD</ecfd:CustDetAFN_02>
+          </ecfd:CustDetalle>
+          <ecfd:CustDetalle>
+            <ecfd:CustDetNroLin>3</ecfd:CustDetNroLin>
+            <ecfd:CustDetAFN_01>SC00002</ecfd:CustDetAFN_01>
+            <ecfd:CustDetAFN_02>UNIDAD</ecfd:CustDetAFN_02>
+          </ecfd:CustDetalle>
+        </ecfd:Personalizados>
+      </ecfd:ECFD>
+    </dte:Adenda>
+  </dte:SAT>
+  <ds:Signature Id="Signature-0b108512-7784-4eb1-b0ca-868428028189">
+    <ds:SignedInfo>
+      <ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+      <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+      <ds:Reference Id="Reference-af4bf97e-bf94-4583-81fa-0c308eeefb24" URI="#DatosEmision">
+        <ds:Transforms>
+          <ds:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+        </ds:Transforms>
+        <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+        <ds:DigestValue>okgbaIRj1DF7xIh/ehNIru7/atMkfUV4VdOvxu4tNG4=</ds:DigestValue>
+      </ds:Reference>
+      <ds:Reference Id="ReferenceKeyInfo-Signature-0b108512-7784-4eb1-b0ca-868428028189" URI="#KeyInfoId-Signature-0b108512-7784-4eb1-b0ca-868428028189">
+        <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+        <ds:DigestValue>ktFVDdhYl5ysdXC3owxGDIwg7QYg0urcsckzEcwmW/A=</ds:DigestValue>
+      </ds:Reference>
+      <ds:Reference URI="#SignedProperties-Signature-0b108512-7784-4eb1-b0ca-868428028189" Type="http://uri.etsi.org/01903#SignedProperties">
+        <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+        <ds:DigestValue>5NcKOVKeXWu8E9KYkCdQKMl01cgnlKuXd9dCWq75xGA=</ds:DigestValue>
+      </ds:Reference>
+    </ds:SignedInfo>
+    <ds:SignatureValue Id="SignatureValue-0b108512-7784-4eb1-b0ca-868428028189">o3hdH3ddzSYAQlvlKx/wA+V+n3vX+Oth1KS79aZ/Mj0h9DoGm6NreW1NHwwLkpbFlQiuPsvyG0P4v+4wRcSuHriaERjGIA2sEwk7/FGtUQJDU3NDnJUXM3XsZD6dwcqFSSGCYJU4f+0Mc0sXgs5W7x7xvMRnIAqU9ihX35FVxvTBXeRMh2gJI3+HoYVsHRNk69ojEwbWs9UrO9NxJgZH4kQprhQgPxaaty4/KFcF77jlZolOy04YzzfD/X4KsLka0nR8lOjgkz5ofNJJt9N2u+4WMV10z2m3n3R6YGmSoLFPzttRyU8JVISvwI2BxHwqGDWgeYnpL/JfL8ZKT08xFg==</ds:SignatureValue>
+    <ds:KeyInfo Id="KeyInfoId-Signature-0b108512-7784-4eb1-b0ca-868428028189">
+      <ds:X509Data>
+        <ds:X509Certificate>MIIDYDCCAkigAwIBAgIIN/o4TYouqrowDQYJKoZIhvcNAQELBQAwODE2MDQGA1UEAwwtU3VwZXJpbnRlbmRlbmNpYSBkZSBBZG1pbmlzdHJhY2lvbiBUcmlidXRhcmlhMB4XDTIzMDkxNDAxMDkwNVoXDTI1MDkxMzAxMDkwNVowJzEQMA4GA1UEAwwHNzk1MTc5NTETMBEGA1UECgwKc2F0LmdvYi5ndDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKma1HnusFPjEqpnya2Z5orlQ5BJPSyvXIlORldrUt1DbxDnuTP+UgBF9qqbxK3J6p6iIknji0v5aOqgHsz62y8Z7ukjfcib5TzFLF4EUzDpSQ1dZMg0A4pZ2z1Hb+6Us4wVFFTQPlmlpdrd8BWvy6hbQFFwQopaNGjIDnnCem2yA8UIHwxwdi+MLs6jif/q87o8qZeXvxOAUxDT3qqEkn1K8YXorMKM8epBARZjNXWQoArctfplmMIN+uoNJagvc93+Ho6mV0BY4XI3UnqY3vO0PgYnSEf/KuyRbrrzLS1hjDWc89i9fHS/31lZ2bouVsl/nmyja3TXVkMm1vvwKWsCAwEAAaN/MH0wDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBRYgnaNWCixyUMEArTVyF5qL//4SjAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwQwHQYDVR0OBBYEFJUa/QeDvJe++mgLg3cw5fwG386LMA4GA1UdDwEB/wQEAwIF4DANBgkqhkiG9w0BAQsFAAOCAQEAF6Ll5DJ3ALyoOPXTObkKnfzmfq74ZUncm9H7gIjjddExTkUjtvf4eeXhS3u6tQ3YVxSlI1hxjTcGycwKk3KwXjHHCM80pG4Py6965NwaQUsj+galBCWp4haapCqeYi/H54edCueVhKjXWRRFnlpo/geX3UmkOJnIlunR1qIGQquj4rQlmSUdOwRfDeGpy2JFLtt/jtq7bAOrcyGjZycXgIl83P9MHdKZEem5+woxrzKoaQp3D4w/LLvJ6iBhRQg3sOS9/z9V8xoSvfmmMCaeHBHToroM3PQCyCJSPtIY+nFVd4lNbQZhS3+1fZWShU6OsFAOdUKi0ahy13wLljfoWA==</ds:X509Certificate>
+      </ds:X509Data>
+      <ds:KeyValue>
+        <ds:RSAKeyValue>
+          <ds:Modulus>qZrUee6wU+MSqmfJrZnmiuVDkEk9LK9ciU5GV2tS3UNvEOe5M/5SAEX2qpvErcnqnqIiSeOLS/lo6qAezPrbLxnu6SN9yJvlPMUsXgRTMOlJDV1kyDQDilnbPUdv7pSzjBUUVNA+WaWl2t3wFa/LqFtAUXBCilo0aMgOecJ6bbIDxQgfDHB2L4wuzqOJ/+rzujypl5e/E4BTENPeqoSSfUrxheiswozx6kEBFmM1dZCgCty1+mWYwg366g0lqC9z3f4ejqZXQFjhcjdSepje87Q+BidIR/8q7JFuuvMtLWGMNZzz2L18dL/fWVnZui5WyX+ebKNrdNdWQybW+/Apaw==</ds:Modulus>
+          <ds:Exponent>AQAB</ds:Exponent>
+        </ds:RSAKeyValue>
+      </ds:KeyValue>
+    </ds:KeyInfo>
+    <ds:Object Id="XadesObjectId-2e1a4473-b84a-464b-8189-1ef87a1b32c2">
+      <xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Id="QualifyingProperties-fe269d66-e203-4eb6-88c0-3be89f96926d" Target="#Signature-0b108512-7784-4eb1-b0ca-868428028189">
+        <xades:SignedProperties Id="SignedProperties-Signature-0b108512-7784-4eb1-b0ca-868428028189">
+          <xades:SignedSignatureProperties>
+            <xades:SigningTime>2025-09-03T22:35:15-06:00</xades:SigningTime>
+            <xades:SigningCertificate>
+              <xades:Cert>
+                <xades:CertDigest>
+                  <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                  <ds:DigestValue>rg/Flz1h/eGIjXGOcHqJb2zj/J+2tq3HML0/oOImLPw=</ds:DigestValue>
+                </xades:CertDigest>
+                <xades:IssuerSerial>
+                  <ds:X509IssuerName>CN=Superintendencia de Administracion Tributaria</ds:X509IssuerName>
+                  <ds:X509SerialNumber>4033598321945651898</ds:X509SerialNumber>
+                </xades:IssuerSerial>
+              </xades:Cert>
+            </xades:SigningCertificate>
+          </xades:SignedSignatureProperties>
+          <xades:SignedDataObjectProperties>
+            <xades:DataObjectFormat ObjectReference="#Reference-af4bf97e-bf94-4583-81fa-0c308eeefb24">
+              <xades:MimeType>text/xml</xades:MimeType>
+              <xades:Encoding>UTF-8</xades:Encoding>
+            </xades:DataObjectFormat>
+          </xades:SignedDataObjectProperties>
+        </xades:SignedProperties>
+      </xades:QualifyingProperties>
+    </ds:Object>
+  </ds:Signature>
+  <ds:Signature Id="Signature-6f3e4a1c-6a55-405a-8329-b9171d7b9053">
+    <ds:SignedInfo>
+      <ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+      <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+      <ds:Reference Id="Reference-6b0a70e7-ec72-4d79-9647-7e0b768656e8" URI="#DatosCertificados">
+        <ds:Transforms>
+          <ds:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+        </ds:Transforms>
+        <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+        <ds:DigestValue>768aSPt9pjedEB8pf1TYz/SEkGCVrGGl5zRn99/c464=</ds:DigestValue>
+      </ds:Reference>
+      <ds:Reference Id="ReferenceKeyInfo-Signature-6f3e4a1c-6a55-405a-8329-b9171d7b9053" URI="#KeyInfoId-Signature-6f3e4a1c-6a55-405a-8329-b9171d7b9053">
+        <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+        <ds:DigestValue>nwstUqMnde01Jd1sP2sUM2F/tP5cjn6a5UiAlB1WHnk=</ds:DigestValue>
+      </ds:Reference>
+      <ds:Reference URI="#SignedProperties-Signature-6f3e4a1c-6a55-405a-8329-b9171d7b9053" Type="http://uri.etsi.org/01903#SignedProperties">
+        <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+        <ds:DigestValue>Kl1BXMsxeoadIzXisYyXyq0cpYw/xzq7xfnV+6UgEsE=</ds:DigestValue>
+      </ds:Reference>
+    </ds:SignedInfo>
+    <ds:SignatureValue Id="SignatureValue-6f3e4a1c-6a55-405a-8329-b9171d7b9053">bFCBKc9/RA6HODOTrEQ9xcVBdSkxi4A6IfP+8sfzLLq60g2/N/smROmCCb2VUP9WCtI0bk1IsO/UwruGphvtXHOi/ssoC0mTSjNTJAVUDafEFTVeeyeh8MawVGs6SU6CbH8CWECqONpM1BaFbJoMK1O6BvNtx78Cq64n+uzJ89pp8LWmF0dLzGy9hyF2YKCIsZYWQYKgHPFwoOusPJcX9R5JpGyxkZHfMO2sHhL3mYPMgg3tq0V78I5vwrJLplsc4mgkmfuXiWaMkIMnjn0Y33FHWvQnDgNcfu5v6eEHpZN+zgvegiykCxV6SAx7aT7icpFfPSPlyhP1K7jaOQU/Ug==</ds:SignatureValue>
+    <ds:KeyInfo Id="KeyInfoId-Signature-6f3e4a1c-6a55-405a-8329-b9171d7b9053">
+      <ds:X509Data>
+        <ds:X509Certificate>MIIKBTCCB+2gAwIBAgIIZ54gw8Ee9XQwDQYJKoZIhvcNAQELBQAwgcAxFjAUBgNVBGEMDVZBVEdULTM1MTU5LTgxLTArBgNVBAMMJENhbWFyYSBkZSBDb21lcmNpbyBkZSBHdWF0ZW1hbGEgQ0EgMTEsMCoGA1UECwwjUFNDLUNhbWFyYSBkZSBDb21lcmNpbyBkZSBHdWF0ZW1hbGExKDAmBgNVBAoMH0NhbWFyYSBkZSBDb21lcmNpbyBkZSBHdWF0ZW1hbGExEjAQBgNVBAcMCUd1YXRlbWFsYTELMAkGA1UEBhMCR1QwHhcNMjQwODEzMDAyODAwWhcNMjYwODEzMDAyODAwWjCCAQIxVTBTBgNVBAkMTDEyIENBTExFLCAwMS0yNSwgTklWRUwgOCBPRklDSU5BIDgxMCBUT1JSRSBTVVIsIFpPTkEgMTAsIEVESUZJQ0lPIEdFTUlOSVMgMTAxLTArBgNVBAMMJElORk9SVU0gQ09OU1VMVElORywgU09DSUVEQUQgQU5PTklNQTERMA8GA1UEBRMINDM0MzA3NzUxLTArBgNVBAoMJElORk9SVU0gQ09OU1VMVElORywgU09DSUVEQUQgQU5PTklNQTESMBAGA1UEBwwJR1VBVEVNQUxBMQswCQYDVQQGEwJHVDEXMBUGA1UEYQwOVkFUR1QtNDM0MzA3NzUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCTlo85rFJO/TfTl0+fsAHXfktAsrhEMYwjUMoUygQQeoVIBUHEMGLtTW18YJ9tpIW//58ZUwxnoboF1QqDzIurT3itX7wM96jDjXqbkihv/D0eMGxHUVy1TG4KOmMN2sIwr4cIEdm1AP4VQahTpGHwkxPOcD8LNBahHhXFsf+iyP6pBV0HdINFz0ppwjrT0+2Gdw9clIqi9nKK/bfob4diHbmPqi4EZCaL9MXbQF1ne39XPxkyC+oTc/q1EqY2FOOsxIgobAkCeCRf8KOB6b9fL9ARloU6YEOu0GaJtdOkShJRbK1sA8lhyGYAi3qw87ipBllD3qkOfcKGxjX3EnvNAgMBAAGjggS8MIIEuDCBywYIKwYBBQUHAQEEgb4wgbswSQYIKwYBBQUHMAKGPWh0dHA6Ly93d3cuZmlybWEtZS5jb20uZ3QvY2VydGlmaWNhZG9zL2FjX3N1Ym9yZGluYWRhX2NjZy5jZXIwNgYIKwYBBQUHMAGGKmh0dHA6Ly9vY3NwMS51YW5hdGFjYS5jb20vcHVibGljL3BraS9vY3NwLzA2BggrBgEFBQcwAYYqaHR0cDovL29jc3AyLnVhbmF0YWNhLmNvbS9wdWJsaWMvcGtpL29jc3AvMB0GA1UdDgQWBBTu8zS/CLERrFoSdIl4/sTo8Dh7KTAMBgNVHRMBAf8EAjAAMB8GA1UdIwQYMBaAFAcyElo7LxJGg1YxrYbl00IWLcCbMBYGA1UdEgQPMA2BC2luZm9AY2NnLmd0MIICrAYDVR0gBIICozCCAp8wggKRBgorBgEEAYG1YwEGMIICgTArBggrBgEFBQcCARYfaHR0cHM6Ly9maXJtYS1lLmNvbS5ndC9qdXJpZGljbzCCAUYGCCsGAQUFBwICMIIBOB6CATQAQwBlAHIAdABpAGYAaQBjAGEAZABvACAARABpAGcAaQB0AGEAbAAgAGQAZQAgAFAAZQByAHMAbwBuAGEAIABKAHUAcgDtAGQAaQBjAGEAIABlAG0AaQB0AGkAZABvACAAcABvAHIAIABDAOEAbQBhAHIAYQAgAGQAZQAgAEMAbwBtAGUAcgBjAGkAbwAgAGQAZQAgAEcAdQBhAHQAZQBtAGEAbABhACwAIABOAEkAVAAgADMANQAxADUAOQAtADgALAAgAGkAbgBmAG8AQABjAGMAZwAuAGcAdAAsACAAdQBiAGkAYwBhAGQAbwAgAGUAbgAgADEAMAAgAEMAYQBsAGwAZQAgADMALQA4ADAAIABaAG8AbgBhACAAMQAsACAARwB1AGEAdABlAG0AYQBsAGEALjCCAQYGCCsGAQUFBwICMIH5HoH2AEEAdQB0AG8AcgBpAHoAYQBkAG8AIABzAGUAZwD6AG4AIAByAGUAcwBvAGwAdQBjAGkA8wBuACAAZABlACAAMgAzAC4AMAAxAC4AMgAwADEAMgAsACAATgBvAC4AIABQAFMAQwAtADAAMQAtADIAMAAxADIAIABkAGUAbAAgAFIAUABTAEMAIABkAGUAbAAgAE0AaQBuAGkAcwB0AGUAcgBpAG8AIABkAGUAIABFAGMAbwBuAG8AbQDtAGEAIABkAGUAIABsAGEAIABSAGUAcAD6AGIAbABpAGMAYQAgAGQAZQAgAEcAdQBhAHQAZQBtAGEAbABhMAgGBgQAj3oBAjB5BgNVHR8EcjBwMDagNKAyhjBodHRwOi8vY3JsMS51YW5hdGFjYS5jb20vcHVibGljL3BraS9jcmwvQ0NHVC5jcmwwNqA0oDKGMGh0dHA6Ly9jcmwyLnVhbmF0YWNhLmNvbS9wdWJsaWMvcGtpL2NybC9DQ0dULmNybDAOBgNVHQ8BAf8EBAMCBeAwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMEMCgGA1UdEQQhMB+BHWpvc3VlLmNvcmRvdmFAZWR4c29sdXRpb25zLmd0MA0GCSqGSIb3DQEBCwUAA4ICAQBpvqnDD1326HNko/IGgK7MsOWeJol++2Tuba5hqoNDsln3KeL9YH3VgB1l4gb3YtDzpc8OpvS4pzr29xNuoC2gMI3atvLPiBqPlpIirXWAcpfEcvfd4J1H8JPniSQFOkTx1FlQf1ZkP63HsohbLrolIQbU3yE5Km//nK37radjZtqm91MPUc14Ei5cU8zCAeyKWlFMSGu5+lxprV5ErRthQpbNW0rL1dQLOPPumPcTwNv67BuCWCnIRZe5fr0kMMOg1Z5pBA1pYXsN3xlu6jeSIZtGgDI3DCLVrAM95ZzPRm30eacCnP5MdY8w5Qs55b3W/r1+pwcjEv4IK87Ureu+CMxgrcNkpHvmPWc9t2FF/ArOt3o2JWIKEQ3BIDBiSv9OJoyPdQsuqYmXh7trgrWAGmbD6th3I0eqIqXIRtogMwMyd6S/vD1KtzPsgm+TOw3BVWPQhjtKL+cqvPNfPeQuJhg1jrwhQfkMLWVXBD/0Gg+S0v13CZTAClKeuZ/moGBaQ0mhqT8oWLch4jvuNeVc1Y/7j5TT6hiKTsMBqalC2hby9NedgH23eshx8gK9P7rX45qPdECU2s+r0j4XSjSPLdWOcPl/nae1mxNQ8+HiD99C9zRzjA4immGmOMxVsHvx+M+DgcjBq3vJ6Nvn61n01bXu1HTZWIvLbKCxm4TBow==</ds:X509Certificate>
+      </ds:X509Data>
+      <ds:KeyValue>
+        <ds:RSAKeyValue>
+          <ds:Modulus>k5aPOaxSTv0305dPn7AB135LQLK4RDGMI1DKFMoEEHqFSAVBxDBi7U1tfGCfbaSFv/+fGVMMZ6G6BdUKg8yLq094rV+8DPeow416m5Iob/w9HjBsR1FctUxuCjpjDdrCMK+HCBHZtQD+FUGoU6Rh8JMTznA/CzQWoR4VxbH/osj+qQVdB3SDRc9KacI609PthncPXJSKovZyiv236G+HYh25j6ouBGQmi/TF20BdZ3t/Vz8ZMgvqE3P6tRKmNhTjrMSIKGwJAngkX/Cjgem/Xy/QEZaFOmBDrtBmibXTpEoSUWytbAPJYchmAIt6sPO4qQZZQ96pDn3ChsY19xJ7zQ==</ds:Modulus>
+          <ds:Exponent>AQAB</ds:Exponent>
+        </ds:RSAKeyValue>
+      </ds:KeyValue>
+    </ds:KeyInfo>
+    <ds:Object Id="XadesObjectId-4a007cf1-e2df-45c7-99ca-eb78d9167615">
+      <xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Id="QualifyingProperties-6a75d4d1-4ec0-4b37-be2a-867b19fc6ef5" Target="#Signature-6f3e4a1c-6a55-405a-8329-b9171d7b9053">
+        <xades:SignedProperties Id="SignedProperties-Signature-6f3e4a1c-6a55-405a-8329-b9171d7b9053">
+          <xades:SignedSignatureProperties>
+            <xades:SigningTime>2025-09-03T22:35:17-06:00</xades:SigningTime>
+            <xades:SigningCertificate>
+              <xades:Cert>
+                <xades:CertDigest>
+                  <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                  <ds:DigestValue>y23Sy9Y0F8xa7Ev3mfFXKc1/JnQzm1R3HR//TpmqZ/Q=</ds:DigestValue>
+                </xades:CertDigest>
+                <xades:IssuerSerial>
+                  <ds:X509IssuerName>C=GT, L=Guatemala, O=Camara de Comercio de Guatemala, OU=PSC-Camara de Comercio de Guatemala, CN=Camara de Comercio de Guatemala CA 1, OID.2.5.4.97=VATGT-35159-8</ds:X509IssuerName>
+                  <ds:X509SerialNumber>7466441257357604212</ds:X509SerialNumber>
+                </xades:IssuerSerial>
+              </xades:Cert>
+            </xades:SigningCertificate>
+          </xades:SignedSignatureProperties>
+          <xades:SignedDataObjectProperties>
+            <xades:DataObjectFormat ObjectReference="#Reference-6b0a70e7-ec72-4d79-9647-7e0b768656e8">
+              <xades:MimeType>text/xml</xades:MimeType>
+              <xades:Encoding>UTF-8</xades:Encoding>
+            </xades:DataObjectFormat>
+          </xades:SignedDataObjectProperties>
+        </xades:SignedProperties>
+      </xades:QualifyingProperties>
+    </ds:Object>
+  </ds:Signature>
+</dte:GTDocumento>

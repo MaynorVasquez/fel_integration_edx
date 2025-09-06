@@ -11,8 +11,8 @@
   "certification_timestamp",
   "series",
   "number",
-  "request",
-  "response"
+  "xml_request",
+  "xml_response"
  ],
  "fields": [
   {
@@ -22,20 +22,10 @@
    "options": "Exitoso\nError"
   },
   {
-   "fieldname": "request",
-   "fieldtype": "Long Text",
-   "label": "XML Request"
-  },
-  {
-   "fieldname": "response",
-   "fieldtype": "Long Text",
-   "label": "XML Response"
-  },
-  {
    "fieldname": "sales_invoice",
    "fieldtype": "Link",
    "label": "Factura",
-   "options": "POS Invoice"
+   "options": "Sales Invoice"
   },
   {
    "fieldname": "authorization_number",
@@ -56,12 +46,22 @@
    "fieldname": "number",
    "fieldtype": "Data",
    "label": "Numero FEL"
+  },
+  {
+   "fieldname": "xml_request",
+   "fieldtype": "Attach",
+   "label": "xml_request"
+  },
+  {
+   "fieldname": "xml_response",
+   "fieldtype": "Attach",
+   "label": "xml_response"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-07-06 13:39:02.224020",
+ "modified": "2025-09-04 21:22:16.394334",
  "modified_by": "Administrator",
  "module": "Integracion FEL",
  "name": "FEL Certificacion Factura Cambiaria",

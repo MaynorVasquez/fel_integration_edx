@@ -6,11 +6,34 @@ app_email = "vasquez158@gmail.com"
 app_license = "mit"
 
 
-# doc_events = {
-#     "Sales Invoice": {
-#         "on_submit": "fel_integration_edx.api.edx_factura_cambiaria.certificar_factura"
-#     }
-# }
+doc_events = {
+    "Sales Invoice": {
+        "on_submit": "fel_integration_edx.fel_factura.a_ejecutar_funcion.enviar_xml"
+    }
+}
+
+fixtures = [
+    "Property Setter",
+    {
+        "dt": "Custom Field",
+        "filters": [
+            ["name", "in", [
+                "Sales Invoice-custom_uuid",
+                "Sales Invoice-custom_serie",
+                "Sales Invoice-custom_numero",
+                "Sales Invoice-custom_fecha",
+                "Sales Invoice-custom_certificado",
+                "Sales Invoice-custom_certificar"
+            ]]
+        ]
+    },
+    {
+        "dt": "Workspace",
+        "filters": [
+            ["name", "in", ["Factura Electronica EDX"]]
+        ]
+    }
+]
 
 # Apps
 # ------------------

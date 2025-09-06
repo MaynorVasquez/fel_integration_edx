@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dte:GTDocumento 
+    xmlns:dte="http://www.sat.gob.gt/dte/fel/0.1.0"
+    xmlns:cfc="http://www.sat.gob.gt/dte/fel/CompCambiaria/0.1.0"
+    xmlns:cno="http://www.sat.gob.gt/face2/ComplementoReferenciaNota/0.1.0"
+    xmlns:cex="http://www.sat.gob.gt/face2/ComplementoExportaciones/0.1.0"
+    xmlns:cfe="http://www.sat.gob.gt/face2/ComplementoFacturaEspecial/0.1.0"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
+    Version="0.4">
+  <dte:SAT ClaseDocumento="dte">
+    <dte:DTE ID="DatosCertificados">
+      <dte:DatosEmision ID="DatosEmision">
+        <dte:DatosGenerales Tipo="FCAM" FechaHoraEmision="2025-09-03T17:00:48-06:00" CodigoMoneda="GTQ"/>
+        <dte:Emisor NITEmisor="7951795" NombreEmisor="Productos Alimenticios YAESTA, S.A." CodigoEstablecimiento="2" NombreComercial="Productos Alimenticios YAESTA, S.A." CorreoEmisor="sap@yaesta.com.gt" AfiliacionIVA="GEN"> 
+          <dte:DireccionEmisor>
+            <dte:Direccion>Kilómetro 16.5 carretera a San Juan Sacatepéquez, complejo industrial Mixco Norte B-2, Zona 6</dte:Direccion>
+            <dte:CodigoPostal>01057</dte:CodigoPostal>
+            <dte:Municipio>MIXCO</dte:Municipio>
+            <dte:Departamento>GUATEMALA</dte:Departamento>
+            <dte:Pais>GT</dte:Pais>
+          </dte:DireccionEmisor>
+        </dte:Emisor>
+        <dte:Receptor IDReceptor="CF" NombreReceptor="MAYNOR HAROLDO VASQUEZ" CorreoReceptor="no-definido@correo.com">
+          <dte:DireccionReceptor>
+            <dte:Direccion>Lote 7, Sector 1, Lo de Carranza San Juan Sacatepequez</dte:Direccion>
+            <dte:CodigoPostal>01010</dte:CodigoPostal>
+            <dte:Municipio>San Juan Sacatepequez</dte:Municipio>
+            <dte:Departamento>Guatemala</dte:Departamento>
+            <dte:Pais>GT</dte:Pais>
+          </dte:DireccionReceptor>
+        </dte:Receptor>
+        <dte:Frases>
+          <dte:Frase TipoFrase="1" CodigoEscenario="1"/>
+          <dte:Frase TipoFrase="2" CodigoEscenario="1"/>
+        </dte:Frases>
+        <dte:Items>
+            
+        <dte:Item NumeroLinea="1" BienOServicio="B">
+            <dte:Cantidad>2.0</dte:Cantidad>
+            <dte:UnidadMedida>UNI</dte:UnidadMedida>
+            <dte:Descripcion>BORRICOS YAESTA DE JAMON Y QUESO</dte:Descripcion>
+            <dte:PrecioUnitario>5.92</dte:PrecioUnitario>
+            <dte:Precio>11.840000</dte:Precio>
+            <dte:Descuento>0.000000</dte:Descuento>
+            <dte:Impuestos>
+                <dte:Impuesto>
+                    <dte:NombreCorto>IVA</dte:NombreCorto>
+                    <dte:CodigoUnidadGravable>1</dte:CodigoUnidadGravable>
+                    <dte:MontoGravable>10.571429</dte:MontoGravable>
+                    <dte:MontoImpuesto>1.268571</dte:MontoImpuesto>
+                </dte:Impuesto>
+            </dte:Impuestos>
+            <dte:Total>11.84</dte:Total>
+            <dte:personalizado1>CG00066</dte:personalizado1>
+            <dte:personalizado2>BORRICOS YAESTA DE JAMON Y QUESO</dte:personalizado2>
+            <dte:personalizado3>UNIDAD</dte:personalizado3>
+            <dte:personalizado4/>
+            <dte:personalizado5/>
+            <dte:personalizado6/>
+            <dte:personalizado7/>
+            <dte:personalizado8/>
+            <dte:personalizado9/>
+            <dte:personalizado10/>
+            <dte:personalizado11/>
+            <dte:personalizado12/>
+            <dte:personalizado13/>
+            <dte:personalizado14/>
+            <dte:personalizado15/>
+        </dte:Item>
+        
+        </dte:Items>
+        <dte:Totales>
+          <dte:TotalImpuestos>
+            <dte:TotalImpuesto NombreCorto="IVA" TotalMontoImpuesto="1.268571"/>
+          </dte:TotalImpuestos>
+          <dte:GranTotal>11.840000</dte:GranTotal>
+        </dte:Totales>
+          
+        <dte:Complementos>
+            <dte:Complemento  NombreComplemento="GT_Complemento_Cambiaria.xsd" URIComplemento="http://www.sat.gob.gt/dte/fel/CompCambiaria/0.2.0">
+                <cfc:AbonosFacturaCambiaria Version="1">
+                <cfc:Abono>
+                    <cfc:NumeroAbono>1</cfc:NumeroAbono>
+                    <cfc:FechaVencimiento>2025-09-03</cfc:FechaVencimiento>
+                    <cfc:MontoAbono>11.840000</cfc:MontoAbono>
+                </cfc:Abono>
+                </cfc:AbonosFacturaCambiaria>
+            </dte:Complemento>
+        </dte:Complementos>
+    
+      </dte:DatosEmision>
+    </dte:DTE>
+    <dte:Personalizado>
+      <dte:Personalizado1>FAC-POS-01-0000000024</dte:Personalizado1>
+      <dte:Personalizado10/>
+      <dte:Personalizado11/>
+      <dte:Personalizado12/>
+      <dte:Personalizado13/>
+      <dte:Personalizado14/>
+      <dte:Personalizado15/>
+      <dte:Personalizado16/>
+      <dte:Personalizado17/>
+      <dte:Personalizado18/>
+      <dte:Personalizado19/>
+      <dte:Personalizado2>306</dte:Personalizado2>
+      <dte:Personalizado20/>
+      <dte:Personalizado21/>
+      <dte:Personalizado3>Tienda</dte:Personalizado3>
+      <dte:Personalizado4>2 FEL</dte:Personalizado4>
+      <dte:Personalizado5>C01932</dte:Personalizado5>
+      <dte:Personalizado6>MAYNOR HAROLDO VASQUEZ</dte:Personalizado6>
+      <dte:Personalizado7/>
+      <dte:Personalizado9>Tienda</dte:Personalizado9>
+    </dte:Personalizado>
+  </dte:SAT>
+</dte:GTDocumento>

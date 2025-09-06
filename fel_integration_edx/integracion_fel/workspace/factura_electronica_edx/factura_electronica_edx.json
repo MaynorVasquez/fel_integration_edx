@@ -1,0 +1,88 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"tCK65oRnyW\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Factura Electronica EDX Guatemala</span>\",\"col\":12}},{\"id\":\"2wrkhAXBcD\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"rR06VkUKO_\",\"type\":\"card\",\"data\":{\"card_name\":\"Configuraci\u00f3n\",\"col\":4}},{\"id\":\"8_kiOkZKnP\",\"type\":\"card\",\"data\":{\"card_name\":\"Logs\",\"col\":4}}]",
+ "creation": "2025-08-26 15:43:06.883286",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "milestone",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Factura Electronica EDX",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Logs",
+   "link_count": 1,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "FEL Certificacion Factura Cambiaria",
+   "link_count": 0,
+   "link_to": "FEL Certificacion Factura Cambiaria",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Configuraci\u00f3n",
+   "link_count": 3,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "FEL Integration",
+   "link_count": 0,
+   "link_to": "FEL Integration",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "FEL Series Electronicas",
+   "link_count": 0,
+   "link_to": "FEL Series Electronicas",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "FEL usuarios autorizados",
+   "link_count": 0,
+   "link_to": "FEL usuarios autorizados",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2025-09-04 12:52:30.221177",
+ "modified_by": "Administrator",
+ "module": "Integracion FEL",
+ "name": "Factura Electronica EDX",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 25.0,
+ "shortcuts": [],
+ "title": "Factura Electronica EDX"
+}
