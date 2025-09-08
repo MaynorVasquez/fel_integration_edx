@@ -7,9 +7,19 @@ from fel_integration_edx.fel_factura.c_crea_archivo_xml import crear_xml
 from fel_integration_edx.fel_factura.d_certifica_xml import enviar_xml_dte
 from fel_integration_edx.fel_factura.e_procesar_dte import procesar_dte
 from fel_integration_edx.fel_logs.fel_logs import log_sincronizacion_xml
+from fel_integration_edx.config.usuarios_autorizados import verificar_autorizacion
 
 def enviar_xml(doc, method):
     try:
+
+        usuario_actual = frappe.session.user
+        doctype_actual = doc.doctype  # Ej: "Sales Invoice"
+
+        # Verificar autorización
+        if not verificar_autorizacion(usuario_actual, doctype_actual):
+            print(f"El usuario {usuario_actual} no enviara el documento a sap tipo  {doctype_actual}")
+            #frappe.msgprint(f"⚠ El usuario {usuario_actual} no está autorizado para sincronizar {doctype_actual} con SAP")
+            return
         
         # 1. Generar XML
         xml = generar_xml_dte(doc.name)
