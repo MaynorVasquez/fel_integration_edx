@@ -35,7 +35,6 @@ def generar_xml_dte(sales_invoice_doc):
     fecha_emision = now_datetime().strftime("%Y-%m-%dT%H:%M:%S-06:00")
 
     nombre_cliente = doc.customer_name
-    direccion_cliente = doc.customer_address or "CIUDAD"
     total_factura = "%.6f" % float(doc.grand_total)
     currency = doc.currency
 

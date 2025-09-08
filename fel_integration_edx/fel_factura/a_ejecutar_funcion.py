@@ -34,10 +34,14 @@ def enviar_xml(doc, method):
             uuid = datos_certificacion.get("uuid")
             serie = datos_certificacion.get("serie")
             numero = datos_certificacion.get("numero")
+            codigo_establecimiento = datos_certificacion.get("codigo_establecimiento")
+            direccion_establecimiento = datos_certificacion.get("direccion_emisor")
             frappe.db.set_value("Sales Invoice", doc.name, "custom_uuid", uuid)
             frappe.db.set_value("Sales Invoice", doc.name, "custom_serie", serie)
             frappe.db.set_value("Sales Invoice", doc.name, "custom_numero", numero)
             frappe.db.set_value("Sales Invoice", doc.name, "custom_fecha", fecha)
+            frappe.db.set_value("Sales Invoice", doc.name, "custom_establecimiento", codigo_establecimiento)
+            frappe.db.set_value("Sales Invoice", doc.name, "custom_direccion_establecimiento", direccion_establecimiento)
             frappe.db.commit()
 
             # Guardar XML de respuesta

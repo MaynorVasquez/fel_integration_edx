@@ -38,6 +38,16 @@ def procesar_dte(response):
     serie = numero_autorizacion.attrib.get("Serie", "") if numero_autorizacion is not None else ""
     numero = numero_autorizacion.attrib.get("Numero", "") if numero_autorizacion is not None else ""
     fecha_cert = cert_root.findtext(".//dte:FechaHoraCertificacion", namespaces=ns)
+    # Dirección del Emisor
+    direccion_emisor = cert_root.findtext(".//dte:DireccionEmisor/dte:Direccion", namespaces=ns)
+
+    # Obtener nodo Emisor
+    emisor = cert_root.find(".//dte:Emisor", namespaces=ns)
+
+    codigo_establecimiento = ""
+    if emisor is not None:
+        codigo_establecimiento = emisor.attrib.get("CodigoEstablecimiento", "")
+
 
     # Generar XML formateado
     xml_formateado = etree.tostring(
@@ -60,5 +70,7 @@ def procesar_dte(response):
         "serie": serie,
         "numero": numero,
         "fecha_certificacion": fecha_cert,
+        "direccion_emisor": direccion_emisor,
+        "codigo_establecimiento": codigo_establecimiento,
         "xml_formateado": xml_formateado
     }

@@ -9,7 +9,7 @@
   "datos_del_certificador_column",
   "area",
   "contrase\u00f1a",
-  "usuario",
+  "certificador",
   "url",
   "retencion_iva",
   "afiliacion_iva",
@@ -33,11 +33,6 @@
    "fieldname": "contrase\u00f1a",
    "fieldtype": "Data",
    "label": "Contrase\u00f1a"
-  },
-  {
-   "fieldname": "usuario",
-   "fieldtype": "Data",
-   "label": "Usuario"
   },
   {
    "fieldname": "url",
@@ -109,13 +104,18 @@
    "fieldname": "correo_emisor",
    "fieldtype": "Data",
    "label": "Correo de la empresa"
+  },
+  {
+   "fieldname": "certificador",
+   "fieldtype": "Data",
+   "label": "Certificador"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "issingle": 1,
  "links": [],
- "modified": "2025-07-03 13:50:45.490670",
+ "modified": "2025-09-06 17:31:47.790486",
  "modified_by": "Administrator",
  "module": "Integracion FEL",
  "name": "FEL Integration",

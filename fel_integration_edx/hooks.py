@@ -13,22 +13,33 @@ doc_events = {
 }
 
 fixtures = [
-    "Property Setter",
     {
-        "dt": "Custom Field",
+        "doctype": "Property Setter",
+        "filters": [
+            ["doc_type", "in", ["Sales Invoice"]]
+        ]
+    },
+    {
+        "doctype": "Custom Field",
         "filters": [
             ["name", "in", [
                 "Sales Invoice-custom_uuid",
                 "Sales Invoice-custom_serie",
                 "Sales Invoice-custom_numero",
                 "Sales Invoice-custom_fecha",
-                "Sales Invoice-custom_certificado",
-                "Sales Invoice-custom_certificar"
+                "Sales Invoice-custom_direccion_establecimiento",
+                "Sales Invoice-custom_establecimiento"
             ]]
         ]
     },
     {
-        "dt": "Workspace",
+        "doctype": "Print Format",
+        "filters": [
+            ["name", "in", ["POS YAESTA Tienda"]]
+        ]
+    },
+    {
+        "doctype": "Workspace",
         "filters": [
             ["name", "in", ["Factura Electronica EDX"]]
         ]
