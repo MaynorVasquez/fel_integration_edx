@@ -9,6 +9,7 @@ from fel_integration_edx.fel_factura.e_procesar_dte import procesar_dte
 from fel_integration_edx.fel_logs.fel_logs import log_sincronizacion_xml
 from fel_integration_edx.config.usuarios_autorizados import verificar_autorizacion
 
+
 def enviar_xml(doc, method):
     try:
 
@@ -53,7 +54,7 @@ def enviar_xml(doc, method):
             frappe.db.set_value("Sales Invoice", doc.name, "custom_establecimiento", codigo_establecimiento)
             frappe.db.set_value("Sales Invoice", doc.name, "custom_direccion_establecimiento", direccion_establecimiento)
             frappe.db.commit()
-
+            
             # Guardar XML de respuesta
             file_path_response = crear_xml(datos_certificacion["xml_formateado"], doc.name, "xml_response", "FCAM")
 

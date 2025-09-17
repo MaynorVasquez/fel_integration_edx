@@ -28,7 +28,9 @@ fixtures = [
                 "Sales Invoice-custom_numero",
                 "Sales Invoice-custom_fecha",
                 "Sales Invoice-custom_direccion_establecimiento",
-                "Sales Invoice-custom_establecimiento"
+                "Sales Invoice-custom_establecimiento",
+                "POS Profile-custom_establecimiento_fel",
+                "POS Profile-custom_serie_sap"
             ]]
         ]
     },
