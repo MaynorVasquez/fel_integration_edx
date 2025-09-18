@@ -40,15 +40,18 @@ def generar_xml_dte(sales_invoice_doc):
 
 
     # 1. Tomar la dirección completa con HTML
-    direccion_raw = doc.address_display
+    direccion_raw = doc.address_display or ""
     # 2. Limpiar etiquetas HTML
     direccion_clean = strip_html(direccion_raw).strip()
     # 3. Separar por saltos de línea
     partes = direccion_clean.split("\n")
     # 4. Asignar a variables según el orden
-    direccion = partes[0] if len(partes) > 0 else ""
-    municipio  = partes[1] if len(partes) > 1 else ""
-    departamento = partes[2] if len(partes) > 2 else ""
+    direccion = partes[0] if len(partes) > 0 else "Ciudad"
+    municipio  = partes[1] if len(partes) > 1 else "Guatemala"
+    departamento = partes[2] if len(partes) > 2 else "Guatemala"
+    direccion = direccion or "Ciudad"
+    municipio = municipio or "Guatemala"
+    departamento = departamento or "Guatemala"
 
     # items
     items_xml = ""
