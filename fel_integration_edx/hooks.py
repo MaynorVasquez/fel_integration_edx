@@ -37,7 +37,8 @@ fixtures = [
     {
         "doctype": "Print Format",
         "filters": [
-            ["name", "in", ["POS YAESTA Tienda"]]
+            ["name", "in", ["POS YAESTA Tienda"]],
+            ["name", "in", ["POS Factura de venta"]]
         ]
     },
     {
@@ -45,7 +46,13 @@ fixtures = [
         "filters": [
             ["name", "in", ["Factura Electronica EDX"]]
         ]
-    }
+    },
+    {
+        "dt": "FEL Integration"
+    },
+    {
+        "dt": "FEL Series Electronicas"
+    }    
 ]
 
 # Apps
