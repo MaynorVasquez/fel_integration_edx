@@ -21,7 +21,7 @@ def procesar_dte(response):
             return {
                 "status": "error",
                 "codigo_error": codigo_error or "N/A",
-                "mensaje_error": descripcion_error or "Error desconocido del certificador."
+                "error": descripcion_error or "Error desconocido del certificador."
             }
     except Exception as e:
         return {
