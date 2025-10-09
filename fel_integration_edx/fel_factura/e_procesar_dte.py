@@ -5,7 +5,24 @@ def procesar_dte(response):
     try:
         
         root = etree.fromstring(response.encode("utf-8"))
+        has_error = root.findtext(".//HasError")
         textdata = root.findtext(".//TextData")
+        # Validar si hay error
+        if has_error and has_error.strip().lower() == "true":
+            descripcion_error = root.findtext(".//Error/Description")
+            codigo_error = root.findtext(".//Error/Code")
+
+            # Limpiar el texto del CDATA
+            if descripcion_error:
+                descripcion_error = descripcion_error.strip()
+            if codigo_error:
+                codigo_error = codigo_error.strip()
+
+            return {
+                "status": "error",
+                "codigo_error": codigo_error or "N/A",
+                "mensaje_error": descripcion_error or "Error desconocido del certificador."
+            }
     except Exception as e:
         return {
             "status": "error",
@@ -56,13 +73,6 @@ def procesar_dte(response):
         encoding="utf-8",
         xml_declaration=True
     ).decode("utf-8")
-
-
-    # archivo_salida = "/home/frappe/smart/apps/fel_integration_edx/fel_integration_edx/xml_generados/xml_respuesta.xml"
-    # # Guardar en archivo si se proporciona ruta
-    # if archivo_salida:
-    #     with open(archivo_salida, "w", encoding="utf-8") as f:
-    #         f.write(xml_formateado)
 
     return {
         "status": "success",

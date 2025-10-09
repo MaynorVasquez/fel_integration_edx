@@ -1,0 +1,23 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "FEL Series Electronicas",
+  "modified": "2025-09-17 08:36:11.268113",
+  "name": "FEL Series Electronicas",
+  "series_electronicas": [
+   {
+    "código_postal": "01057",
+    "departamento": "Guatemala",
+    "direccion": "Kilómetro 16.5 carretera a San Juan Sacatepéquez, complejo industrial Mixco Norte B-2, Zona 6",
+    "establecimiento": 2,
+    "municipio": "Mixco",
+    "nombre_establecimiento": "Productos Alimenticios ¡YAESTÁ!",
+    "parent": "FEL Series Electronicas",
+    "parentfield": "series_electronicas",
+    "parenttype": "FEL Series Electronicas",
+    "tipo_documento": "FCAM - Factura cambiaria",
+    "transaccion": "Factura de cliente"
+   }
+  ]
+ }
+]

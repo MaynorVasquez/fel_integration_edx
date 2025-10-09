@@ -5,10 +5,10 @@
 		<Type>6</Type>
 		<TypeDesc>appWebServices</TypeDesc>
 	</Process>
-	<HasError>false</HasError>
+	<HasError>true</HasError>
 	<Error>
-		<Code/>
-		<Description/>
+		<Code>EDXGTCER012 -</Code>
+		<Description><![CDATA[EDXGTCER012 - El NIT del Receptor es inválido]]></Description>
 		<UIMessage/>
 	</Error>
 	<ReturnValue>0</ReturnValue>

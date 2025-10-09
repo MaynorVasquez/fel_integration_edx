@@ -1,0 +1,22 @@
+[
+ {
+  "afiliacion_iva": "GEN - General",
+  "area": "SAPWEB",
+  "certificador": "Inforum Consulting, S.A.",
+  "contraseña": "administrador",
+  "correo_emisor": "sap@yaesta.com.gt",
+  "departamento": "Guatemala",
+  "docstatus": 0,
+  "doctype": "FEL Integration",
+  "modified": "2025-09-06 17:32:11.124464",
+  "municipio": "Mixco",
+  "name": "FEL Integration",
+  "nit_certificador": "43430775",
+  "nit_emisor": "7951795",
+  "nombre_comercial": "Productos Alimenticios YAESTA, S.A.",
+  "pais": "GT",
+  "razon_social": "Productos Alimenticios YAESTA, S.A.",
+  "retencion_iva": "Si",
+  "url": "https://edx.yaesta.com.gt/ConectoFEL/core.asmx?WSDL"
+ }
+]
