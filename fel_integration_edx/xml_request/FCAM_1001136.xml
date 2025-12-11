@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dte:GTDocumento 
+    xmlns:dte="http://www.sat.gob.gt/dte/fel/0.1.0"
+    xmlns:cfc="http://www.sat.gob.gt/dte/fel/CompCambiaria/0.1.0"
+    xmlns:cno="http://www.sat.gob.gt/face2/ComplementoReferenciaNota/0.1.0"
+    xmlns:cex="http://www.sat.gob.gt/face2/ComplementoExportaciones/0.1.0"
+    xmlns:cfe="http://www.sat.gob.gt/face2/ComplementoFacturaEspecial/0.1.0"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
+    Version="0.4">
+  <dte:SAT ClaseDocumento="dte">
+    <dte:DTE ID="DatosCertificados">
+      <dte:DatosEmision ID="DatosEmision">
+        <dte:DatosGenerales Tipo="FCAM" FechaHoraEmision="2025-11-25T16:50:27-06:00" CodigoMoneda="GTQ"/>
+        <dte:Emisor NITEmisor="7951795" NombreEmisor="Productos Alimenticios YAESTA, S.A." CodigoEstablecimiento="2" NombreComercial="Productos Alimenticios YAESTA, S.A." CorreoEmisor="sap@yaesta.com.gt" AfiliacionIVA="GEN"> 
+          <dte:DireccionEmisor>
+            <dte:Direccion>Kilómetro 16.5 carretera a San Juan Sacatepéquez, complejo industrial Mixco Norte B-2, Zona 6</dte:Direccion>
+            <dte:CodigoPostal>01057</dte:CodigoPostal>
+            <dte:Municipio>MIXCO</dte:Municipio>
+            <dte:Departamento>GUATEMALA</dte:Departamento>
+            <dte:Pais>GT</dte:Pais>
+          </dte:DireccionEmisor>
+        </dte:Emisor>
+        <dte:Receptor IDReceptor="CF" NombreReceptor="CONSUMIDOR FINAL " CorreoReceptor="no-definido@correo.com">
+          <dte:DireccionReceptor>
+            <dte:Direccion>CIUDAD</dte:Direccion>
+            <dte:CodigoPostal>01010</dte:CodigoPostal>
+            <dte:Municipio>GUATEMALA </dte:Municipio>
+            <dte:Departamento>Guatemala</dte:Departamento>
+            <dte:Pais>GT</dte:Pais>
+          </dte:DireccionReceptor>
+        </dte:Receptor>
+        <dte:Frases>
+          <dte:Frase TipoFrase="1" CodigoEscenario="1"/>
+          <dte:Frase TipoFrase="2" CodigoEscenario="1"/>
+        </dte:Frases>
+        <dte:Items>
+            
+        <dte:Item NumeroLinea="1" BienOServicio="B">
+            <dte:Cantidad>1.0</dte:Cantidad>
+            <dte:UnidadMedida>UNI</dte:UnidadMedida>
+            <dte:Descripcion>MUCHO NACHO BARBACOA 17 GRAMOS</dte:Descripcion>
+            <dte:PrecioUnitario>10.32</dte:PrecioUnitario>
+            <dte:Precio>10.320000</dte:Precio>
+            <dte:Descuento>0.000000</dte:Descuento>
+            <dte:Impuestos>
+                <dte:Impuesto>
+                    <dte:NombreCorto>IVA</dte:NombreCorto>
+                    <dte:CodigoUnidadGravable>1</dte:CodigoUnidadGravable>
+                    <dte:MontoGravable>9.214286</dte:MontoGravable>
+                    <dte:MontoImpuesto>1.105714</dte:MontoImpuesto>
+                </dte:Impuesto>
+            </dte:Impuestos>
+            <dte:Total>10.32</dte:Total>
+            <dte:personalizado1>BQ00305</dte:personalizado1>
+            <dte:personalizado2>MUCHO NACHO BARBACOA 17 GRAMOS</dte:personalizado2>
+            <dte:personalizado3>UNIDAD</dte:personalizado3>
+            <dte:personalizado4/>
+            <dte:personalizado5/>
+            <dte:personalizado6/>
+            <dte:personalizado7/>
+            <dte:personalizado8/>
+            <dte:personalizado9/>
+            <dte:personalizado10/>
+            <dte:personalizado11/>
+            <dte:personalizado12/>
+            <dte:personalizado13/>
+            <dte:personalizado14/>
+            <dte:personalizado15/>
+        </dte:Item>
+        
+        <dte:Item NumeroLinea="2" BienOServicio="B">
+            <dte:Cantidad>1.0</dte:Cantidad>
+            <dte:UnidadMedida>UNI</dte:UnidadMedida>
+            <dte:Descripcion>MUCHO NACHO SABOR A BARBACOA 150 GRAMOS</dte:Descripcion>
+            <dte:PrecioUnitario>7.21</dte:PrecioUnitario>
+            <dte:Precio>7.210000</dte:Precio>
+            <dte:Descuento>0.000000</dte:Descuento>
+            <dte:Impuestos>
+                <dte:Impuesto>
+                    <dte:NombreCorto>IVA</dte:NombreCorto>
+                    <dte:CodigoUnidadGravable>1</dte:CodigoUnidadGravable>
+                    <dte:MontoGravable>6.437500</dte:MontoGravable>
+                    <dte:MontoImpuesto>0.772500</dte:MontoImpuesto>
+                </dte:Impuesto>
+            </dte:Impuestos>
+            <dte:Total>7.21</dte:Total>
+            <dte:personalizado1>BQ00117</dte:personalizado1>
+            <dte:personalizado2>MUCHO NACHO SABOR A BARBACOA 150 GRAMOS</dte:personalizado2>
+            <dte:personalizado3>UNIDAD</dte:personalizado3>
+            <dte:personalizado4/>
+            <dte:personalizado5/>
+            <dte:personalizado6/>
+            <dte:personalizado7/>
+            <dte:personalizado8/>
+            <dte:personalizado9/>
+            <dte:personalizado10/>
+            <dte:personalizado11/>
+            <dte:personalizado12/>
+            <dte:personalizado13/>
+            <dte:personalizado14/>
+            <dte:personalizado15/>
+        </dte:Item>
+        
+        <dte:Item NumeroLinea="3" BienOServicio="B">
+            <dte:Cantidad>4.0</dte:Cantidad>
+            <dte:UnidadMedida>UNI</dte:UnidadMedida>
+            <dte:Descripcion>MUCHO NACHO QUESO 17 GRAMOS</dte:Descripcion>
+            <dte:PrecioUnitario>0.86</dte:PrecioUnitario>
+            <dte:Precio>3.440000</dte:Precio>
+            <dte:Descuento>0.000000</dte:Descuento>
+            <dte:Impuestos>
+                <dte:Impuesto>
+                    <dte:NombreCorto>IVA</dte:NombreCorto>
+                    <dte:CodigoUnidadGravable>1</dte:CodigoUnidadGravable>
+                    <dte:MontoGravable>3.071429</dte:MontoGravable>
+                    <dte:MontoImpuesto>0.368571</dte:MontoImpuesto>
+                </dte:Impuesto>
+            </dte:Impuestos>
+            <dte:Total>3.44</dte:Total>
+            <dte:personalizado1>BQ00306</dte:personalizado1>
+            <dte:personalizado2>MUCHO NACHO QUESO 17 GRAMOS</dte:personalizado2>
+            <dte:personalizado3>UNIDAD</dte:personalizado3>
+            <dte:personalizado4/>
+            <dte:personalizado5/>
+            <dte:personalizado6/>
+            <dte:personalizado7/>
+            <dte:personalizado8/>
+            <dte:personalizado9/>
+            <dte:personalizado10/>
+            <dte:personalizado11/>
+            <dte:personalizado12/>
+            <dte:personalizado13/>
+            <dte:personalizado14/>
+            <dte:personalizado15/>
+        </dte:Item>
+        
+        <dte:Item NumeroLinea="4" BienOServicio="B">
+            <dte:Cantidad>4.0</dte:Cantidad>
+            <dte:UnidadMedida>UNI</dte:UnidadMedida>
+            <dte:Descripcion>COCA COLA 255 ML</dte:Descripcion>
+            <dte:PrecioUnitario>5.67</dte:PrecioUnitario>
+            <dte:Precio>22.680000</dte:Precio>
+            <dte:Descuento>0.000000</dte:Descuento>
+            <dte:Impuestos>
+                <dte:Impuesto>
+                    <dte:NombreCorto>IVA</dte:NombreCorto>
+                    <dte:CodigoUnidadGravable>1</dte:CodigoUnidadGravable>
+                    <dte:MontoGravable>20.250000</dte:MontoGravable>
+                    <dte:MontoImpuesto>2.430000</dte:MontoImpuesto>
+                </dte:Impuesto>
+            </dte:Impuestos>
+            <dte:Total>22.68</dte:Total>
+            <dte:personalizado1>CG00158</dte:personalizado1>
+            <dte:personalizado2>COCA COLA 255 ML</dte:personalizado2>
+            <dte:personalizado3>UNIDAD</dte:personalizado3>
+            <dte:personalizado4/>
+            <dte:personalizado5/>
+            <dte:personalizado6/>
+            <dte:personalizado7/>
+            <dte:personalizado8/>
+            <dte:personalizado9/>
+            <dte:personalizado10/>
+            <dte:personalizado11/>
+            <dte:personalizado12/>
+            <dte:personalizado13/>
+            <dte:personalizado14/>
+            <dte:personalizado15/>
+        </dte:Item>
+        
+        <dte:Item NumeroLinea="5" BienOServicio="B">
+            <dte:Cantidad>1.0</dte:Cantidad>
+            <dte:UnidadMedida>UNI</dte:UnidadMedida>
+            <dte:Descripcion>FLAMAS CHILE LIMON 17 GRAMOS</dte:Descripcion>
+            <dte:PrecioUnitario>0.86</dte:PrecioUnitario>
+            <dte:Precio>0.860000</dte:Precio>
+            <dte:Descuento>0.000000</dte:Descuento>
+            <dte:Impuestos>
+                <dte:Impuesto>
+                    <dte:NombreCorto>IVA</dte:NombreCorto>
+                    <dte:CodigoUnidadGravable>1</dte:CodigoUnidadGravable>
+                    <dte:MontoGravable>0.767857</dte:MontoGravable>
+                    <dte:MontoImpuesto>0.092143</dte:MontoImpuesto>
+                </dte:Impuesto>
+            </dte:Impuestos>
+            <dte:Total>0.86</dte:Total>
+            <dte:personalizado1>BQ00308</dte:personalizado1>
+            <dte:personalizado2>FLAMAS CHILE LIMON 17 GRAMOS</dte:personalizado2>
+            <dte:personalizado3>UNIDAD</dte:personalizado3>
+            <dte:personalizado4/>
+            <dte:personalizado5/>
+            <dte:personalizado6/>
+            <dte:personalizado7/>
+            <dte:personalizado8/>
+            <dte:personalizado9/>
+            <dte:personalizado10/>
+            <dte:personalizado11/>
+            <dte:personalizado12/>
+            <dte:personalizado13/>
+            <dte:personalizado14/>
+            <dte:personalizado15/>
+        </dte:Item>
+        
+        </dte:Items>
+        <dte:Totales>
+          <dte:TotalImpuestos>
+            <dte:TotalImpuesto NombreCorto="IVA" TotalMontoImpuesto="4.768929"/>
+          </dte:TotalImpuestos>
+          <dte:GranTotal>44.510000</dte:GranTotal>
+        </dte:Totales>
+          
+        <dte:Complementos>
+            <dte:Complemento  NombreComplemento="GT_Complemento_Cambiaria.xsd" URIComplemento="http://www.sat.gob.gt/dte/fel/CompCambiaria/0.2.0">
+                <cfc:AbonosFacturaCambiaria Version="1">
+                <cfc:Abono>
+                    <cfc:NumeroAbono>1</cfc:NumeroAbono>
+                    <cfc:FechaVencimiento>2025-11-25</cfc:FechaVencimiento>
+                    <cfc:MontoAbono>44.510000</cfc:MontoAbono>
+                </cfc:Abono>
+                </cfc:AbonosFacturaCambiaria>
+            </dte:Complemento>
+        </dte:Complementos>
+    
+      </dte:DatosEmision>
+    </dte:DTE>
+    <dte:Personalizado>
+      <dte:Personalizado1>1001136</dte:Personalizado1>
+      <dte:Personalizado10/>
+      <dte:Personalizado11/>
+      <dte:Personalizado12/>
+      <dte:Personalizado13/>
+      <dte:Personalizado14/>
+      <dte:Personalizado15/>
+      <dte:Personalizado16/>
+      <dte:Personalizado17/>
+      <dte:Personalizado18/>
+      <dte:Personalizado19/>
+      <dte:Personalizado2>306</dte:Personalizado2>
+      <dte:Personalizado20/>
+      <dte:Personalizado21/>
+      <dte:Personalizado3>Tienda</dte:Personalizado3>
+      <dte:Personalizado4>2 FEL</dte:Personalizado4>
+      <dte:Personalizado5>C02683</dte:Personalizado5>
+      <dte:Personalizado6>CONSUMIDOR FINAL </dte:Personalizado6>
+      <dte:Personalizado7/>
+      <dte:Personalizado9>Tienda</dte:Personalizado9>
+    </dte:Personalizado>
+  </dte:SAT>
+</dte:GTDocumento>

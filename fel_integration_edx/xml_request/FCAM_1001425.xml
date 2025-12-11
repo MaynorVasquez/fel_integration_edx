@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dte:GTDocumento 
+    xmlns:dte="http://www.sat.gob.gt/dte/fel/0.1.0"
+    xmlns:cfc="http://www.sat.gob.gt/dte/fel/CompCambiaria/0.1.0"
+    xmlns:cno="http://www.sat.gob.gt/face2/ComplementoReferenciaNota/0.1.0"
+    xmlns:cex="http://www.sat.gob.gt/face2/ComplementoExportaciones/0.1.0"
+    xmlns:cfe="http://www.sat.gob.gt/face2/ComplementoFacturaEspecial/0.1.0"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
+    Version="0.4">
+  <dte:SAT ClaseDocumento="dte">
+    <dte:DTE ID="DatosCertificados">
+      <dte:DatosEmision ID="DatosEmision">
+        <dte:DatosGenerales Tipo="FCAM" FechaHoraEmision="2025-12-11T13:32:47-06:00" CodigoMoneda="GTQ"/>
+        <dte:Emisor NITEmisor="7951795" NombreEmisor="Productos Alimenticios YAESTA, S.A." CodigoEstablecimiento="2" NombreComercial="Productos Alimenticios YAESTA, S.A." CorreoEmisor="sap@yaesta.com.gt" AfiliacionIVA="GEN"> 
+          <dte:DireccionEmisor>
+            <dte:Direccion>Kilómetro 16.5 carretera a San Juan Sacatepéquez, complejo industrial Mixco Norte B-2, Zona 6</dte:Direccion>
+            <dte:CodigoPostal>01057</dte:CodigoPostal>
+            <dte:Municipio>MIXCO</dte:Municipio>
+            <dte:Departamento>GUATEMALA</dte:Departamento>
+            <dte:Pais>GT</dte:Pais>
+          </dte:DireccionEmisor>
+        </dte:Emisor>
+        <dte:Receptor IDReceptor="C02683" NombreReceptor="JULIO CON" CorreoReceptor="no-definido@correo.com">
+          <dte:DireccionReceptor>
+            <dte:Direccion>CIUDAD</dte:Direccion>
+            <dte:CodigoPostal>01010</dte:CodigoPostal>
+            <dte:Municipio>GUATEMALA </dte:Municipio>
+            <dte:Departamento>Guatemala</dte:Departamento>
+            <dte:Pais>GT</dte:Pais>
+          </dte:DireccionReceptor>
+        </dte:Receptor>
+        <dte:Frases>
+          <dte:Frase TipoFrase="1" CodigoEscenario="1"/>
+          <dte:Frase TipoFrase="2" CodigoEscenario="1"/>
+        </dte:Frases>
+        <dte:Items>
+            
+        <dte:Item NumeroLinea="1" BienOServicio="B">
+            <dte:Cantidad>8.0</dte:Cantidad>
+            <dte:UnidadMedida>UNI</dte:UnidadMedida>
+            <dte:Descripcion>MUCHO QUESO YAESTA 9 ONZAS</dte:Descripcion>
+            <dte:PrecioUnitario>17.1</dte:PrecioUnitario>
+            <dte:Precio>136.800000</dte:Precio>
+            <dte:Descuento>0.000000</dte:Descuento>
+            <dte:Impuestos>
+                <dte:Impuesto>
+                    <dte:NombreCorto>IVA</dte:NombreCorto>
+                    <dte:CodigoUnidadGravable>1</dte:CodigoUnidadGravable>
+                    <dte:MontoGravable>122.142857</dte:MontoGravable>
+                    <dte:MontoImpuesto>14.657143</dte:MontoImpuesto>
+                </dte:Impuesto>
+            </dte:Impuestos>
+            <dte:Total>136.8</dte:Total>
+            <dte:personalizado1>SL00005</dte:personalizado1>
+            <dte:personalizado2>MUCHO QUESO YAESTA 9 ONZAS</dte:personalizado2>
+            <dte:personalizado3>UNIDAD</dte:personalizado3>
+            <dte:personalizado4/>
+            <dte:personalizado5/>
+            <dte:personalizado6/>
+            <dte:personalizado7/>
+            <dte:personalizado8/>
+            <dte:personalizado9/>
+            <dte:personalizado10/>
+            <dte:personalizado11/>
+            <dte:personalizado12/>
+            <dte:personalizado13/>
+            <dte:personalizado14/>
+            <dte:personalizado15/>
+        </dte:Item>
+        
+        <dte:Item NumeroLinea="2" BienOServicio="B">
+            <dte:Cantidad>24.0</dte:Cantidad>
+            <dte:UnidadMedida>UNI</dte:UnidadMedida>
+            <dte:Descripcion>MUCHO NACHO NAVINACHO 255 GRAMOS</dte:Descripcion>
+            <dte:PrecioUnitario>5.0</dte:PrecioUnitario>
+            <dte:Precio>120.000000</dte:Precio>
+            <dte:Descuento>0.000000</dte:Descuento>
+            <dte:Impuestos>
+                <dte:Impuesto>
+                    <dte:NombreCorto>IVA</dte:NombreCorto>
+                    <dte:CodigoUnidadGravable>1</dte:CodigoUnidadGravable>
+                    <dte:MontoGravable>107.142857</dte:MontoGravable>
+                    <dte:MontoImpuesto>12.857143</dte:MontoImpuesto>
+                </dte:Impuesto>
+            </dte:Impuestos>
+            <dte:Total>120.0</dte:Total>
+            <dte:personalizado1>BQ00322</dte:personalizado1>
+            <dte:personalizado2>MUCHO NACHO NAVINACHO 255 GRAMOS</dte:personalizado2>
+            <dte:personalizado3>UNIDAD</dte:personalizado3>
+            <dte:personalizado4/>
+            <dte:personalizado5/>
+            <dte:personalizado6/>
+            <dte:personalizado7/>
+            <dte:personalizado8/>
+            <dte:personalizado9/>
+            <dte:personalizado10/>
+            <dte:personalizado11/>
+            <dte:personalizado12/>
+            <dte:personalizado13/>
+            <dte:personalizado14/>
+            <dte:personalizado15/>
+        </dte:Item>
+        
+        </dte:Items>
+        <dte:Totales>
+          <dte:TotalImpuestos>
+            <dte:TotalImpuesto NombreCorto="IVA" TotalMontoImpuesto="27.514286"/>
+          </dte:TotalImpuestos>
+          <dte:GranTotal>256.800000</dte:GranTotal>
+        </dte:Totales>
+          
+        <dte:Complementos>
+            <dte:Complemento  NombreComplemento="GT_Complemento_Cambiaria.xsd" URIComplemento="http://www.sat.gob.gt/dte/fel/CompCambiaria/0.2.0">
+                <cfc:AbonosFacturaCambiaria Version="1">
+                <cfc:Abono>
+                    <cfc:NumeroAbono>1</cfc:NumeroAbono>
+                    <cfc:FechaVencimiento>2025-12-11</cfc:FechaVencimiento>
+                    <cfc:MontoAbono>256.800000</cfc:MontoAbono>
+                </cfc:Abono>
+                </cfc:AbonosFacturaCambiaria>
+            </dte:Complemento>
+        </dte:Complementos>
+    
+      </dte:DatosEmision>
+    </dte:DTE>
+    <dte:Personalizado>
+      <dte:Personalizado1>1001425</dte:Personalizado1>
+      <dte:Personalizado10/>
+      <dte:Personalizado11/>
+      <dte:Personalizado12/>
+      <dte:Personalizado13/>
+      <dte:Personalizado14/>
+      <dte:Personalizado15/>
+      <dte:Personalizado16/>
+      <dte:Personalizado17/>
+      <dte:Personalizado18/>
+      <dte:Personalizado19/>
+      <dte:Personalizado2>306</dte:Personalizado2>
+      <dte:Personalizado20/>
+      <dte:Personalizado21/>
+      <dte:Personalizado3>Tienda</dte:Personalizado3>
+      <dte:Personalizado4>2 FEL</dte:Personalizado4>
+      <dte:Personalizado5>C02683</dte:Personalizado5>
+      <dte:Personalizado6>JULIO CON</dte:Personalizado6>
+      <dte:Personalizado7/>
+      <dte:Personalizado9>Tienda</dte:Personalizado9>
+    </dte:Personalizado>
+  </dte:SAT>
+</dte:GTDocumento>

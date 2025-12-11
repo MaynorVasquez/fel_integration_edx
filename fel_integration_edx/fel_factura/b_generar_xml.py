@@ -24,7 +24,7 @@ def generar_xml_dte(sales_invoice_doc):
     # 3. Obtener el Customer
     customer_doc = frappe.get_doc("Customer", customer_code)
     # 4. Obtener el campo custom_nit
-    nit_cliente = customer_doc.custom_nit or "CF"
+    nit_cliente = customer_doc.tax_id or "CF"
     # 5 Obtienen el codigo del cliente 
     cardcode = customer_doc.custom_cardcode
 
