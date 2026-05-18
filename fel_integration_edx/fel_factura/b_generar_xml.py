@@ -133,11 +133,11 @@ def generar_xml_dte(sales_invoice_doc):
     # armar XML
     xml = f"""<?xml version="1.0" encoding="UTF-8"?>
 <dte:GTDocumento 
-    xmlns:dte="http://www.sat.gob.gt/dte/fel/0.1.0"
-    xmlns:cfc="http://www.sat.gob.gt/dte/fel/CompCambiaria/0.1.0"
-    xmlns:cno="http://www.sat.gob.gt/face2/ComplementoReferenciaNota/0.1.0"
-    xmlns:cex="http://www.sat.gob.gt/face2/ComplementoExportaciones/0.1.0"
-    xmlns:cfe="http://www.sat.gob.gt/face2/ComplementoFacturaEspecial/0.1.0"
+    xmlns:dte="http://www.sat.gob.gt/dte/fel/0.2.0"
+    xmlns:cfc="http://www.sat.gob.gt/dte/fel/CompCambiaria/0.2.0"
+    xmlns:cno="http://www.sat.gob.gt/face2/ComplementoReferenciaNota/0.2.0"
+    xmlns:cex="http://www.sat.gob.gt/face2/ComplementoExportaciones/0.2.0"
+    xmlns:cfe="http://www.sat.gob.gt/face2/ComplementoFacturaEspecial/0.2.0"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
     Version="0.4">

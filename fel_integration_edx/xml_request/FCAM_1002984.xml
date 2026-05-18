@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dte:GTDocumento 
+    xmlns:dte="http://www.sat.gob.gt/dte/fel/0.1.0"
+    xmlns:cfc="http://www.sat.gob.gt/dte/fel/CompCambiaria/0.1.0"
+    xmlns:cno="http://www.sat.gob.gt/face2/ComplementoReferenciaNota/0.1.0"
+    xmlns:cex="http://www.sat.gob.gt/face2/ComplementoExportaciones/0.1.0"
+    xmlns:cfe="http://www.sat.gob.gt/face2/ComplementoFacturaEspecial/0.1.0"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
+    Version="0.4">
+  <dte:SAT ClaseDocumento="dte">
+    <dte:DTE ID="DatosCertificados">
+      <dte:DatosEmision ID="DatosEmision">
+        <dte:DatosGenerales Tipo="FCAM" FechaHoraEmision="2026-03-20T15:25:25-06:00" CodigoMoneda="GTQ"/>
+        <dte:Emisor NITEmisor="7951795" NombreEmisor="Productos Alimenticios YAESTA, S.A." CodigoEstablecimiento="2" NombreComercial="Productos Alimenticios YAESTA, S.A." CorreoEmisor="sap@yaesta.com.gt" AfiliacionIVA="GEN"> 
+          <dte:DireccionEmisor>
+            <dte:Direccion>Kilómetro 16.5 carretera a San Juan Sacatepéquez, complejo industrial Mixco Norte B-2, Zona 6</dte:Direccion>
+            <dte:CodigoPostal>01057</dte:CodigoPostal>
+            <dte:Municipio>MIXCO</dte:Municipio>
+            <dte:Departamento>GUATEMALA</dte:Departamento>
+            <dte:Pais>GT</dte:Pais>
+          </dte:DireccionEmisor>
+        </dte:Emisor>
+        <dte:Receptor IDReceptor="4700933-0" NombreReceptor="SHARON MELISSA HERNANDEZ A" CorreoReceptor="no-definido@correo.com">
+          <dte:DireccionReceptor>
+            <dte:Direccion>SECCION D LOTE 76</dte:Direccion>
+            <dte:CodigoPostal>01010</dte:CodigoPostal>
+            <dte:Municipio>MIXCO</dte:Municipio>
+            <dte:Departamento>Guatemala</dte:Departamento>
+            <dte:Pais>GT</dte:Pais>
+          </dte:DireccionReceptor>
+        </dte:Receptor>
+        <dte:Frases>
+          <dte:Frase TipoFrase="1" CodigoEscenario="1"/>
+          <dte:Frase TipoFrase="2" CodigoEscenario="1"/>
+        </dte:Frases>
+        <dte:Items>
+            
+        <dte:Item NumeroLinea="1" BienOServicio="B">
+            <dte:Cantidad>2.0</dte:Cantidad>
+            <dte:UnidadMedida>UNI</dte:UnidadMedida>
+            <dte:Descripcion>PIZZITAS 6 UNIDADES KRISSPYS</dte:Descripcion>
+            <dte:PrecioUnitario>24.68</dte:PrecioUnitario>
+            <dte:Precio>49.360000</dte:Precio>
+            <dte:Descuento>0.000000</dte:Descuento>
+            <dte:Impuestos>
+                <dte:Impuesto>
+                    <dte:NombreCorto>IVA</dte:NombreCorto>
+                    <dte:CodigoUnidadGravable>1</dte:CodigoUnidadGravable>
+                    <dte:MontoGravable>44.071429</dte:MontoGravable>
+                    <dte:MontoImpuesto>5.288571</dte:MontoImpuesto>
+                </dte:Impuesto>
+            </dte:Impuestos>
+            <dte:Total>49.36</dte:Total>
+            <dte:personalizado1>CG00084</dte:personalizado1>
+            <dte:personalizado2>PIZZITAS 6 UNIDADES KRISSPYS</dte:personalizado2>
+            <dte:personalizado3>UNIDAD</dte:personalizado3>
+            <dte:personalizado4/>
+            <dte:personalizado5/>
+            <dte:personalizado6/>
+            <dte:personalizado7/>
+            <dte:personalizado8/>
+            <dte:personalizado9/>
+            <dte:personalizado10/>
+            <dte:personalizado11/>
+            <dte:personalizado12/>
+            <dte:personalizado13/>
+            <dte:personalizado14/>
+            <dte:personalizado15/>
+        </dte:Item>
+        
+        <dte:Item NumeroLinea="2" BienOServicio="B">
+            <dte:Cantidad>1.0</dte:Cantidad>
+            <dte:UnidadMedida>UNI</dte:UnidadMedida>
+            <dte:Descripcion>CJ ADEREZO L MEXICANA CILANTRO CJ 12B/260ML</dte:Descripcion>
+            <dte:PrecioUnitario>16.0</dte:PrecioUnitario>
+            <dte:Precio>16.000000</dte:Precio>
+            <dte:Descuento>0.000000</dte:Descuento>
+            <dte:Impuestos>
+                <dte:Impuesto>
+                    <dte:NombreCorto>IVA</dte:NombreCorto>
+                    <dte:CodigoUnidadGravable>1</dte:CodigoUnidadGravable>
+                    <dte:MontoGravable>14.285714</dte:MontoGravable>
+                    <dte:MontoImpuesto>1.714286</dte:MontoImpuesto>
+                </dte:Impuesto>
+            </dte:Impuestos>
+            <dte:Total>16.0</dte:Total>
+            <dte:personalizado1>SL00056</dte:personalizado1>
+            <dte:personalizado2>CJ ADEREZO L MEXICANA CILANTRO CJ 12B/260ML</dte:personalizado2>
+            <dte:personalizado3>UNIDAD</dte:personalizado3>
+            <dte:personalizado4/>
+            <dte:personalizado5/>
+            <dte:personalizado6/>
+            <dte:personalizado7/>
+            <dte:personalizado8/>
+            <dte:personalizado9/>
+            <dte:personalizado10/>
+            <dte:personalizado11/>
+            <dte:personalizado12/>
+            <dte:personalizado13/>
+            <dte:personalizado14/>
+            <dte:personalizado15/>
+        </dte:Item>
+        
+        <dte:Item NumeroLinea="3" BienOServicio="B">
+            <dte:Cantidad>1.0</dte:Cantidad>
+            <dte:UnidadMedida>UNI</dte:UnidadMedida>
+            <dte:Descripcion>COCA COLA 255 ML</dte:Descripcion>
+            <dte:PrecioUnitario>5.61</dte:PrecioUnitario>
+            <dte:Precio>5.610000</dte:Precio>
+            <dte:Descuento>0.000000</dte:Descuento>
+            <dte:Impuestos>
+                <dte:Impuesto>
+                    <dte:NombreCorto>IVA</dte:NombreCorto>
+                    <dte:CodigoUnidadGravable>1</dte:CodigoUnidadGravable>
+                    <dte:MontoGravable>5.008929</dte:MontoGravable>
+                    <dte:MontoImpuesto>0.601071</dte:MontoImpuesto>
+                </dte:Impuesto>
+            </dte:Impuestos>
+            <dte:Total>5.61</dte:Total>
+            <dte:personalizado1>CG00158</dte:personalizado1>
+            <dte:personalizado2>COCA COLA 255 ML</dte:personalizado2>
+            <dte:personalizado3>UNIDAD</dte:personalizado3>
+            <dte:personalizado4/>
+            <dte:personalizado5/>
+            <dte:personalizado6/>
+            <dte:personalizado7/>
+            <dte:personalizado8/>
+            <dte:personalizado9/>
+            <dte:personalizado10/>
+            <dte:personalizado11/>
+            <dte:personalizado12/>
+            <dte:personalizado13/>
+            <dte:personalizado14/>
+            <dte:personalizado15/>
+        </dte:Item>
+        
+        <dte:Item NumeroLinea="4" BienOServicio="B">
+            <dte:Cantidad>1.0</dte:Cantidad>
+            <dte:UnidadMedida>UNI</dte:UnidadMedida>
+            <dte:Descripcion>SAL YAESTA REFINADA DE MESA YODADA CON FLUOR</dte:Descripcion>
+            <dte:PrecioUnitario>1.45</dte:PrecioUnitario>
+            <dte:Precio>1.450000</dte:Precio>
+            <dte:Descuento>0.000000</dte:Descuento>
+            <dte:Impuestos>
+                <dte:Impuesto>
+                    <dte:NombreCorto>IVA</dte:NombreCorto>
+                    <dte:CodigoUnidadGravable>1</dte:CodigoUnidadGravable>
+                    <dte:MontoGravable>1.294643</dte:MontoGravable>
+                    <dte:MontoImpuesto>0.155357</dte:MontoImpuesto>
+                </dte:Impuesto>
+            </dte:Impuestos>
+            <dte:Total>1.45</dte:Total>
+            <dte:personalizado1>SC00028</dte:personalizado1>
+            <dte:personalizado2>SAL YAESTA REFINADA DE MESA YODADA CON FLUOR</dte:personalizado2>
+            <dte:personalizado3>UNIDAD</dte:personalizado3>
+            <dte:personalizado4/>
+            <dte:personalizado5/>
+            <dte:personalizado6/>
+            <dte:personalizado7/>
+            <dte:personalizado8/>
+            <dte:personalizado9/>
+            <dte:personalizado10/>
+            <dte:personalizado11/>
+            <dte:personalizado12/>
+            <dte:personalizado13/>
+            <dte:personalizado14/>
+            <dte:personalizado15/>
+        </dte:Item>
+        
+        <dte:Item NumeroLinea="5" BienOServicio="B">
+            <dte:Cantidad>1.0</dte:Cantidad>
+            <dte:UnidadMedida>UNI</dte:UnidadMedida>
+            <dte:Descripcion>SAL GRANULADA YODADA 400 GR(E.AZUL) CON FLUOR</dte:Descripcion>
+            <dte:PrecioUnitario>1.33</dte:PrecioUnitario>
+            <dte:Precio>1.330000</dte:Precio>
+            <dte:Descuento>0.000000</dte:Descuento>
+            <dte:Impuestos>
+                <dte:Impuesto>
+                    <dte:NombreCorto>IVA</dte:NombreCorto>
+                    <dte:CodigoUnidadGravable>1</dte:CodigoUnidadGravable>
+                    <dte:MontoGravable>1.187500</dte:MontoGravable>
+                    <dte:MontoImpuesto>0.142500</dte:MontoImpuesto>
+                </dte:Impuesto>
+            </dte:Impuestos>
+            <dte:Total>1.33</dte:Total>
+            <dte:personalizado1>SC00031</dte:personalizado1>
+            <dte:personalizado2>SAL GRANULADA YODADA 400 GR(E.AZUL) CON FLUOR</dte:personalizado2>
+            <dte:personalizado3>UNIDAD</dte:personalizado3>
+            <dte:personalizado4/>
+            <dte:personalizado5/>
+            <dte:personalizado6/>
+            <dte:personalizado7/>
+            <dte:personalizado8/>
+            <dte:personalizado9/>
+            <dte:personalizado10/>
+            <dte:personalizado11/>
+            <dte:personalizado12/>
+            <dte:personalizado13/>
+            <dte:personalizado14/>
+            <dte:personalizado15/>
+        </dte:Item>
+        
+        <dte:Item NumeroLinea="6" BienOServicio="B">
+            <dte:Cantidad>2.0</dte:Cantidad>
+            <dte:UnidadMedida>UNI</dte:UnidadMedida>
+            <dte:Descripcion>PIZZA PERSONAL PEPERONI 200 GRAMOS</dte:Descripcion>
+            <dte:PrecioUnitario>14.69</dte:PrecioUnitario>
+            <dte:Precio>29.380000</dte:Precio>
+            <dte:Descuento>0.000000</dte:Descuento>
+            <dte:Impuestos>
+                <dte:Impuesto>
+                    <dte:NombreCorto>IVA</dte:NombreCorto>
+                    <dte:CodigoUnidadGravable>1</dte:CodigoUnidadGravable>
+                    <dte:MontoGravable>26.232143</dte:MontoGravable>
+                    <dte:MontoImpuesto>3.147857</dte:MontoImpuesto>
+                </dte:Impuesto>
+            </dte:Impuestos>
+            <dte:Total>29.38</dte:Total>
+            <dte:personalizado1>CG00122</dte:personalizado1>
+            <dte:personalizado2>PIZZA PERSONAL PEPERONI 200 GRAMOS</dte:personalizado2>
+            <dte:personalizado3>UNIDAD</dte:personalizado3>
+            <dte:personalizado4/>
+            <dte:personalizado5/>
+            <dte:personalizado6/>
+            <dte:personalizado7/>
+            <dte:personalizado8/>
+            <dte:personalizado9/>
+            <dte:personalizado10/>
+            <dte:personalizado11/>
+            <dte:personalizado12/>
+            <dte:personalizado13/>
+            <dte:personalizado14/>
+            <dte:personalizado15/>
+        </dte:Item>
+        
+        <dte:Item NumeroLinea="7" BienOServicio="B">
+            <dte:Cantidad>2.0</dte:Cantidad>
+            <dte:UnidadMedida>UNI</dte:UnidadMedida>
+            <dte:Descripcion>PUPUSAS YAESTA QUESO LOROCO 540 GRAMOS (CAJA 6 UNIDADES)</dte:Descripcion>
+            <dte:PrecioUnitario>20.3</dte:PrecioUnitario>
+            <dte:Precio>40.600000</dte:Precio>
+            <dte:Descuento>0.000000</dte:Descuento>
+            <dte:Impuestos>
+                <dte:Impuesto>
+                    <dte:NombreCorto>IVA</dte:NombreCorto>
+                    <dte:CodigoUnidadGravable>1</dte:CodigoUnidadGravable>
+                    <dte:MontoGravable>36.250000</dte:MontoGravable>
+                    <dte:MontoImpuesto>4.350000</dte:MontoImpuesto>
+                </dte:Impuesto>
+            </dte:Impuestos>
+            <dte:Total>40.6</dte:Total>
+            <dte:personalizado1>CG00179</dte:personalizado1>
+            <dte:personalizado2>PUPUSAS YAESTA QUESO LOROCO 540 GRAMOS (CAJA 6 UNIDADES)</dte:personalizado2>
+            <dte:personalizado3>UNIDAD</dte:personalizado3>
+            <dte:personalizado4/>
+            <dte:personalizado5/>
+            <dte:personalizado6/>
+            <dte:personalizado7/>
+            <dte:personalizado8/>
+            <dte:personalizado9/>
+            <dte:personalizado10/>
+            <dte:personalizado11/>
+            <dte:personalizado12/>
+            <dte:personalizado13/>
+            <dte:personalizado14/>
+            <dte:personalizado15/>
+        </dte:Item>
+        
+        <dte:Item NumeroLinea="8" BienOServicio="B">
+            <dte:Cantidad>2.0</dte:Cantidad>
+            <dte:UnidadMedida>UNI</dte:UnidadMedida>
+            <dte:Descripcion>PUPUSAS YAESTA QUESO 540 GRAMOS (CAJA 6 UNIDADES)</dte:Descripcion>
+            <dte:PrecioUnitario>20.3</dte:PrecioUnitario>
+            <dte:Precio>40.600000</dte:Precio>
+            <dte:Descuento>0.000000</dte:Descuento>
+            <dte:Impuestos>
+                <dte:Impuesto>
+                    <dte:NombreCorto>IVA</dte:NombreCorto>
+                    <dte:CodigoUnidadGravable>1</dte:CodigoUnidadGravable>
+                    <dte:MontoGravable>36.250000</dte:MontoGravable>
+                    <dte:MontoImpuesto>4.350000</dte:MontoImpuesto>
+                </dte:Impuesto>
+            </dte:Impuestos>
+            <dte:Total>40.6</dte:Total>
+            <dte:personalizado1>CG00181</dte:personalizado1>
+            <dte:personalizado2>PUPUSAS YAESTA QUESO 540 GRAMOS (CAJA 6 UNIDADES)</dte:personalizado2>
+            <dte:personalizado3>UNIDAD</dte:personalizado3>
+            <dte:personalizado4/>
+            <dte:personalizado5/>
+            <dte:personalizado6/>
+            <dte:personalizado7/>
+            <dte:personalizado8/>
+            <dte:personalizado9/>
+            <dte:personalizado10/>
+            <dte:personalizado11/>
+            <dte:personalizado12/>
+            <dte:personalizado13/>
+            <dte:personalizado14/>
+            <dte:personalizado15/>
+        </dte:Item>
+        
+        <dte:Item NumeroLinea="9" BienOServicio="B">
+            <dte:Cantidad>1.0</dte:Cantidad>
+            <dte:UnidadMedida>UNI</dte:UnidadMedida>
+            <dte:Descripcion>WAFFLES KRISPPYS CAJITAS 10 U</dte:Descripcion>
+            <dte:PrecioUnitario>26.11</dte:PrecioUnitario>
+            <dte:Precio>26.110000</dte:Precio>
+            <dte:Descuento>0.000000</dte:Descuento>
+            <dte:Impuestos>
+                <dte:Impuesto>
+                    <dte:NombreCorto>IVA</dte:NombreCorto>
+                    <dte:CodigoUnidadGravable>1</dte:CodigoUnidadGravable>
+                    <dte:MontoGravable>23.312500</dte:MontoGravable>
+                    <dte:MontoImpuesto>2.797500</dte:MontoImpuesto>
+                </dte:Impuesto>
+            </dte:Impuestos>
+            <dte:Total>26.11</dte:Total>
+            <dte:personalizado1>CG00087</dte:personalizado1>
+            <dte:personalizado2>WAFFLES KRISPPYS CAJITAS 10 U</dte:personalizado2>
+            <dte:personalizado3>UNIDAD</dte:personalizado3>
+            <dte:personalizado4/>
+            <dte:personalizado5/>
+            <dte:personalizado6/>
+            <dte:personalizado7/>
+            <dte:personalizado8/>
+            <dte:personalizado9/>
+            <dte:personalizado10/>
+            <dte:personalizado11/>
+            <dte:personalizado12/>
+            <dte:personalizado13/>
+            <dte:personalizado14/>
+            <dte:personalizado15/>
+        </dte:Item>
+        
+        <dte:Item NumeroLinea="10" BienOServicio="B">
+            <dte:Cantidad>1.0</dte:Cantidad>
+            <dte:UnidadMedida>UNI</dte:UnidadMedida>
+            <dte:Descripcion>CJ SALSA CASERA VIDRIO CA 12B/370GR</dte:Descripcion>
+            <dte:PrecioUnitario>10.71</dte:PrecioUnitario>
+            <dte:Precio>10.710000</dte:Precio>
+            <dte:Descuento>0.000000</dte:Descuento>
+            <dte:Impuestos>
+                <dte:Impuesto>
+                    <dte:NombreCorto>IVA</dte:NombreCorto>
+                    <dte:CodigoUnidadGravable>1</dte:CodigoUnidadGravable>
+                    <dte:MontoGravable>9.562500</dte:MontoGravable>
+                    <dte:MontoImpuesto>1.147500</dte:MontoImpuesto>
+                </dte:Impuesto>
+            </dte:Impuestos>
+            <dte:Total>10.71</dte:Total>
+            <dte:personalizado1>SL00062</dte:personalizado1>
+            <dte:personalizado2>CJ SALSA CASERA VIDRIO CA 12B/370GR</dte:personalizado2>
+            <dte:personalizado3>UNIDAD</dte:personalizado3>
+            <dte:personalizado4/>
+            <dte:personalizado5/>
+            <dte:personalizado6/>
+            <dte:personalizado7/>
+            <dte:personalizado8/>
+            <dte:personalizado9/>
+            <dte:personalizado10/>
+            <dte:personalizado11/>
+            <dte:personalizado12/>
+            <dte:personalizado13/>
+            <dte:personalizado14/>
+            <dte:personalizado15/>
+        </dte:Item>
+        
+        </dte:Items>
+        <dte:Totales>
+          <dte:TotalImpuestos>
+            <dte:TotalImpuesto NombreCorto="IVA" TotalMontoImpuesto="23.694643"/>
+          </dte:TotalImpuestos>
+          <dte:GranTotal>221.150000</dte:GranTotal>
+        </dte:Totales>
+          
+        <dte:Complementos>
+            <dte:Complemento  NombreComplemento="GT_Complemento_Cambiaria.xsd" URIComplemento="http://www.sat.gob.gt/dte/fel/CompCambiaria/0.2.0">
+                <cfc:AbonosFacturaCambiaria Version="1">
+                <cfc:Abono>
+                    <cfc:NumeroAbono>1</cfc:NumeroAbono>
+                    <cfc:FechaVencimiento>2026-03-20</cfc:FechaVencimiento>
+                    <cfc:MontoAbono>221.150000</cfc:MontoAbono>
+                </cfc:Abono>
+                </cfc:AbonosFacturaCambiaria>
+            </dte:Complemento>
+        </dte:Complementos>
+    
+      </dte:DatosEmision>
+    </dte:DTE>
+    <dte:Personalizado>
+      <dte:Personalizado1>1002984</dte:Personalizado1>
+      <dte:Personalizado10/>
+      <dte:Personalizado11/>
+      <dte:Personalizado12/>
+      <dte:Personalizado13/>
+      <dte:Personalizado14/>
+      <dte:Personalizado15/>
+      <dte:Personalizado16/>
+      <dte:Personalizado17/>
+      <dte:Personalizado18/>
+      <dte:Personalizado19/>
+      <dte:Personalizado2>306</dte:Personalizado2>
+      <dte:Personalizado20/>
+      <dte:Personalizado21/>
+      <dte:Personalizado3>Tienda</dte:Personalizado3>
+      <dte:Personalizado4>2 FEL</dte:Personalizado4>
+      <dte:Personalizado5>C01706</dte:Personalizado5>
+      <dte:Personalizado6>SHARON MELISSA HERNANDEZ A</dte:Personalizado6>
+      <dte:Personalizado7/>
+      <dte:Personalizado9>Tienda</dte:Personalizado9>
+    </dte:Personalizado>
+  </dte:SAT>
+</dte:GTDocumento>
