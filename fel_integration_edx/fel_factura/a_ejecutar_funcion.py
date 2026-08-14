@@ -12,6 +12,10 @@ from fel_integration_edx.config.usuarios_autorizados import verificar_autorizaci
 
 def enviar_xml(doc, method):
     try:
+        # Ignorar documentos creados por la integración/API
+        if doc.flags.get("sap_sales_invoice"):
+            print(f"Documento {doc.name} creado por integración SAP. No se enviará nuevamente a SAP.")
+            return
 
         usuario_actual = frappe.session.user
         doctype_actual = doc.doctype  # Ej: "Sales Invoice"
